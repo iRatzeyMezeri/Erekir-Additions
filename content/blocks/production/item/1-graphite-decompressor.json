@@ -1,0 +1,48 @@
+{
+    "name": "Graphite Decompressor",
+    "description": "Decompresses Graphite into Coal",
+    "type": "GenericCrafter",
+    "health": 240,
+    "outputItems": [
+        "coal/2"
+    ],
+    "consumes": {
+        "power": 2,
+        "items": [
+          "graphite/1",
+        ],
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawDefault"
+          },
+          {
+            "type": "DrawGlowRegion",
+            "color": "f7e87e"
+          },
+          {
+            "type": "DrawCrucibleFlame",
+            "flameColor": "00000000",
+            "particleRad": 12,
+            "particleSize": 1,
+            "particleColor": "f7e87e"
+          }
+        ]
+    },
+    "size": 3,
+    "squareSprite": false,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 30,
+    "craftTime": 120,
+    "updateEffect": "pulverize",
+    "category": "crafting",
+    "research": "silicon-arc-furnace",
+    "requirements": [
+      "graphite/80",
+      "silicon/40",
+      "beryllium/40"
+    ]
+}
