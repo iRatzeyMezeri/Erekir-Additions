@@ -16,6 +16,7 @@
         "type": "DrawLiquidRegion",
         "liquid": "water",
         "suffix": "-water",
+      }
     ]
   },
   "health": 280,
