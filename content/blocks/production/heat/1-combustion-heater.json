@@ -1,0 +1,23 @@
+{
+  "name": "Combustion Heater",
+  "description": "Combusts coal to gain heat",
+  "type": "HeatProducer",
+  "requirements": [
+    "silicon/20",
+    "tungsten/10",
+    "oxide/5",
+  ],
+  "size": 2,
+  "heatOutput": 2,
+  "regionRotated1": 1,
+  "ambientSound": "hum",
+  "itemCapacity": "10",
+  "consumes": {
+    "items": [
+      "coal/1"
+    ]
+  },
+  "research": "heat-redirector",
+  "category": "crafting",
+  "craftTime": "60",
+}
