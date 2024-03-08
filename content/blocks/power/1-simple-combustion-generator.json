@@ -1,0 +1,43 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Simple Combustion Generator",
+  "description": "Uses coal and water to generate power",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "fdb380"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "liquid": "water",
+        "suffix": "-water",
+    ]
+  },
+  "health": 280,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "powerProduction": 4,
+  "updateEffect": "pulverise",
+  "consumes": {
+    "items": [
+      "coal/1"
+    ],
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.2
+    }
+  },
+  "requirements": [
+    "silicon/80",
+    "graphite/60",
+    "beryllium/60"
+  ],
+  "category": "power",
+  "research": "turbine-condenser"
+}
