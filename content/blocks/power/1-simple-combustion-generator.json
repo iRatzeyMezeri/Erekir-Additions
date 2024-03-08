@@ -16,6 +16,7 @@
         "type": "DrawLiquidRegion",
         "drawLiquid": "water",
         "suffix": "-water",
+        "alpha": 0.5
       }
     ]
   },
