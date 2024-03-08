@@ -20,14 +20,14 @@
           },
           {
             "type": "DrawGlowRegion",
-            "color": "f7e87e"
+            "color": "fdb380"
           },
           {
             "type": "DrawCrucibleFlame",
-            "flameColor": "00000000",
+            "flameColor": "fdb380",
             "particleRad": 12,
             "particleSize": 1,
-            "particleColor": "f7e87e"
+            "particleColor": "fdb380"
           }
         ]
     },
