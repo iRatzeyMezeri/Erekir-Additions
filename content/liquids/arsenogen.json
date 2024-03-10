@@ -1,0 +1,13 @@
+{
+    "type": "liquid",
+    "name": "Arsenogen",
+    "isGas": true,
+    "temperature": 0.5,
+    "viscosity": 0.5,
+    "explosiveness": 3,
+    "flammability": 1,
+    "heatCapacity": 0.5,
+    "color": "a4co8a",
+    "research": "endofluid",
+    "description": "One of the products of processing Endofluid, Hihgly Explosive"
+}
