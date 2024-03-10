@@ -1,0 +1,44 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Meltdown Generator",
+  "description": "Uses slag and hydrogen to generate power",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "d1efff"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "slag"
+      }
+    ]
+  },
+  "health": 880,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "powerProduction": 13,
+  "updateEffect": "pulverise",
+  "consumes": {
+    "liquids": [
+      "hydrogen/0.1",
+      "slag/1",
+  },
+  "requirements": [
+    "tungsten/120",
+    "surge-alloy/40",
+    "silicon/80",
+    "oxide/60"
+  ],
+  "category": "power",
+  "research": "chemical-combustion-chamber"
+}
