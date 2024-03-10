@@ -6,11 +6,11 @@
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawDefault"
-      },
-      {
         "type": "DrawRegion",
         "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
       },
       {
         "type": "DrawGlowRegion",
