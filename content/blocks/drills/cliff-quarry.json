@@ -1,0 +1,28 @@
+{
+  "name": "Cliff Quarry",
+  "description": "A larger cliff crusher, requires water",
+  "type": "WallCrafter",
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "consumes": {
+    "power": 3,
+    "liquids": [
+      "water/0.2"
+    ]
+  },
+  "output": "sand",
+  "attribute": "sand",
+  "size": 3,
+  "tier": 4,
+  "drillTime": 15,
+  "requirements": [
+    "silicon/120",
+    "beryllium/120",
+    "static-compound/60",
+    "surge-alloy/30",
+    "oxide/60"
+  ],
+  "category": "production",
+  "research": "cliff-crusher"
+}
