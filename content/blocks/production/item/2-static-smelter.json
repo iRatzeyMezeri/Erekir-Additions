@@ -1,0 +1,53 @@
+{
+    "name": "Static Smelter",
+    "description": "Combines Tungsten, Sand and Hydrogen into Static Compound. Produces Heat",
+    "type": "HeatProducer",
+    "health": 980,
+    "outputItem": {"item": "static-compound", "amount": 1},
+    "consumes": {
+        "power": 8,
+        "items": [
+          "sand/8",
+          "tungtsen/2"
+        ],
+        "liquids": [
+          "hydrogen/0.05"
+        ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+              "type": "DrawRegion",
+              "suffix": "-bottom",
+            },
+            {
+              "type": "DrawPlasma",
+              "plasma1": "d1efff",
+              "plasma2": "8ca9e8"
+            {
+              "type": "DrawDefault"
+            },
+            {
+              "type": "DrawHeatOutput"
+            }
+        ],
+    },
+    "heatOutput": 8,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+    "itemCapacity": 30,
+    "craftTime": 180,
+    "updateEffect": "pulverise",
+    "category": "crafting",
+    "research": "oxidation-chamber",
+    "requirements": [
+      "tungsten/120",
+      "silicon/80",
+      "beryllium/80",
+      "oxide/40"
+    ],
+}
