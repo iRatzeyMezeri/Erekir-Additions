@@ -1,0 +1,17 @@
+{
+  "type": "ArmoredConduit",
+  "size": 1,
+  "name": "Static Conduit",
+  "descriptions": "A stronger conduit. Does not accept non-conduit inputs from the sides. Does not leak",
+  "health": 640,
+  "leaks": false,
+  "junctionReplacement": "reinforced-liquid-junction",
+  "bridgeReplacement": "reinforced-bridge-conduit",
+  "research": "reinforced-conduit",
+  "category": "liquid",
+  "requirements": [
+    "beryllium/3",
+    "static-compound/1"
+  ],
+  "liquidCapacity": 40
+}
