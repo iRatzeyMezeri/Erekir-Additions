@@ -10,16 +10,18 @@
         "suffix": "-bottom"
       },
       {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "slag"
+        "padding": 1,
+        "alpha": 0.8,
+      },
+      {
         "type": "DrawDefault"
       },
       {
         "type": "DrawGlowRegion",
         "color": "d1efff"
       },
-      {
-        "type": "DrawLiquidTile",
-        "drawLiquid": "slag"
-      }
     ]
   },
   "health": 880,
