@@ -32,6 +32,7 @@
     "liquids": [
       "hydrogen/0.1",
       "slag/1",
+    ]
   },
   "requirements": [
     "tungsten/120",
