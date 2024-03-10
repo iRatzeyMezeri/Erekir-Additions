@@ -1,0 +1,14 @@
+{
+  "type": "LiquidRouter",
+  "size": 1,
+  "name": "Static Liquid Router",
+  "descriptions": "Distributes liquids equally to the sides. More durable than a normal liquid router",
+  "health": 240,
+  "research": "static-conduit",
+  "category": "liquid",
+  "requirements": [
+    "beryllium/12",
+    "static-compound/1"
+  ],
+  "liquidCapacity": 90
+}
