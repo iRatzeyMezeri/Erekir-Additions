@@ -23,6 +23,9 @@
             "padding": 2,
           },
           {
+            "type": "DrawCrucibleFlame",
+          },
+          {
             "type": "DrawRegion"
           },
           {
