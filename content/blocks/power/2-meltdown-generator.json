@@ -15,10 +15,6 @@
       {
         "type": "DrawGlowRegion",
         "color": "d1efff"
-      },
-      {
-        "type": "DrawLiquidTile",
-        "drawLiquid": "slag"
       }
     ]
   },
