@@ -1,0 +1,12 @@
+{
+    "type": "liquid",
+    "name": "Oxynolline",
+    "temperature": 0.5,
+    "viscosity": 0.5,
+    "explosiveness": 0,
+    "flammability": 3,
+    "heatCapacity": 0.2,
+    "color": "e2ae6f",
+    "research": "endofluid",
+    "description": "One of the products of processing Endofluid, Highly flammable"
+}
