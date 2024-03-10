@@ -7,7 +7,7 @@
     "consumes": {
         "power": 18,
         "items": [
-          "s-sand/16",
+          "sand/16",
           "graphite/3",
         ]
     },
