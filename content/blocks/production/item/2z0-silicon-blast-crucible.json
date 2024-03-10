@@ -1,0 +1,53 @@
+{
+    "name": "Silicon Blast Crucible",
+    "description": "An upgraded version of the Silicon Arc Furnace",
+    "type": "HeatCrafter",
+    "health": 1440,
+    "outputItem": {"item": "silicon", "amount": 20},
+    "consumes": {
+        "power": 18,
+        "items": [
+          "s-sand/16",
+          "graphite/3",
+        ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawRegion",
+            "suffix": "-bottom"
+          },
+          {
+            "type": "DrawCrucibleFlame"
+          },
+          {
+            "type": "DrawDefault"
+          },
+          {
+            "type": "DrawHeatInput"
+          },
+          {
+            "type": "DrawArcSmelt",
+          }
+        ]
+    },
+    "size": 5,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 60,
+    "heatRequirement": 10,
+    "craftTime": 30,
+    "researchCostMultiplier": 0.05,
+    "updateEffect": "pulverize",
+    "category": "crafting",
+    "research": "silicon-arc-furnace",
+    "requirements": [
+      "beryllium/480",
+      "silicon/480",
+      "tungsten/240",
+      "oxide/160",
+      "static-compound/160",
+      "carbide/160"
+    ],
+}
