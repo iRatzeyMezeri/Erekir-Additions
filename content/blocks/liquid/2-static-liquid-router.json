@@ -6,6 +6,7 @@
   "health": 240,
   "research": "static-conduit",
   "category": "liquid",
+  "squareSprite": false,
   "requirements": [
     "beryllium/12",
     "static-compound/1"
