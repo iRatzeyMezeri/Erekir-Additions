@@ -25,6 +25,7 @@
               "type": "DrawPlasma",
               "plasma1": "d1efff",
               "plasma2": "8ca9e8"
+            },
             {
               "type": "DrawDefault"
             },
