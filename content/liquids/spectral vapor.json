@@ -1,0 +1,13 @@
+{
+    "type": "liquid",
+    "name": "Spectral Vapor",
+    "isGas": true,
+    "temperature": 0.8,
+    "viscosity": 0.5,
+    "explosiveness": 0,
+    "flammability": 0,
+    "heatCapacity": 0.8,
+    "color": "869cbe",
+    "research": "endofluid",
+    "description": "One of the products of processing Endofluid, Used for creating Spectral Alloy"
+}
