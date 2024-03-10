@@ -37,17 +37,17 @@
     "hasItems": true,
     "itemCapacity": 60,
     "heatRequirement": 20,
-    "craftTime": 30,
+    "craftTime": 120,
     "researchCostMultiplier": 0.05,
     "updateEffect": "pulverize",
     "category": "crafting",
     "research": "silicon-arc-furnace",
     "requirements": [
-      "beryllium/480",
-      "silicon/480",
-      "tungsten/240",
-      "oxide/160",
-      "static-compound/160",
-      "carbide/160"
+      "beryllium/800",
+      "silicon/800",
+      "tungsten/480",
+      "oxide/320",
+      "static-compound/320",
+      "carbide/320"
     ],
 }
