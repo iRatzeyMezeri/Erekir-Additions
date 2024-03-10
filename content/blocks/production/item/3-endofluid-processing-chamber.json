@@ -1,0 +1,66 @@
+{
+    "name": "Endofluid Processing Chamber",
+    "description": "Processes Endofluid into Spectral Vapor, Oxynolline, and Arsenogen",
+    "type": "GenericCrafter",
+    "health": 880
+    "consumes": {
+        "power": 12,
+        "liquids": [
+          "endofluid/3"
+        ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawRegion",
+            "suffix": "-bottom"
+          },
+          {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "endofluid",
+            "alpha": 0.8,
+            "padding": 2,
+          },
+          {
+            "type": "DrawDefault"
+          },
+          {
+            "type": "DrawLiquidOutputs"
+          },
+          {
+            "type": "DrawGlowRegion",
+            "color": "cad9ef",
+          }
+        ]
+    },
+    "outputLiquids": [
+      "spectral-vapor/0.35",
+      "oxynolline/0.4",
+      "arsenogen/0.25",
+    ],
+    "liquidOutputDirections": [
+      2,
+      3,
+      4
+    ],
+    "regionRotated1": 4,
+    "rotate": true,
+    "invertFlip": true,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": false,
+    "hasLiquids": true,
+    "liquidCapacity": 180,
+    "craftTime": 60,
+    "updateEffect": "pulverize",
+    "category": "crafting",
+    "research": "electrolyzer",
+    "requirements": [
+      "tungsten/180",
+      "static-compound/120",
+      "silicon/80",
+      "carbide/40",
+      "oxide/40"
+    ],
+}
