@@ -1,7 +1,7 @@
 {
     "type": "liquid",
     "name": "Spectral Vapor",
-    "isGas": true,
+    "gas": true,
     "temperature": 0.8,
     "viscosity": 0.5,
     "explosiveness": 0,
