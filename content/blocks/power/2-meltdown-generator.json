@@ -34,6 +34,7 @@
       "slag/1",
     ]
   },
+  "squareSprite": false,
   "requirements": [
     "tungsten/120",
     "surge-alloy/40",
