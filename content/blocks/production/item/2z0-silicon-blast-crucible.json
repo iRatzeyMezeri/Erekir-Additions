@@ -32,6 +32,7 @@
           }
         ]
     },
+    "squareSprite": false,
     "size": 5,
     "hasPower": true,
     "hasItems": true,
