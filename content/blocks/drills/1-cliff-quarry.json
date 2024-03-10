@@ -6,7 +6,7 @@
   "hasLiquids": true,
   "liquidCapacity": 40,
   "consumes": {
-    "power": 3,
+    "power": 6,
     "liquids": [
       "water/0.2"
     ]
@@ -17,8 +17,8 @@
   "tier": 4,
   "drillTime": 30,
   "requirements": [
-    "silicon/120",
-    "beryllium/120",
+    "silicon/180",
+    "beryllium/180",
     "static-compound/60",
     "surge-alloy/30",
     "oxide/60"
