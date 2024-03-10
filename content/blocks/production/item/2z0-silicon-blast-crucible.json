@@ -9,6 +9,9 @@
         "items": [
           "sand/16",
           "graphite/3",
+        ],
+        "liquids": [
+          "nitrogen/0.2"
         ]
     },
     "drawer": {
@@ -36,7 +39,9 @@
     "size": 5,
     "hasPower": true,
     "hasItems": true,
-    "itemCapacity": 60,
+    "hasLiquids": true,
+    "liquidCapacity": 120,
+    "itemCapacity": 120,
     "heatRequirement": 20,
     "craftTime": 120,
     "researchCostMultiplier": 0.05,
