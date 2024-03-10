@@ -1,0 +1,11 @@
+{
+    "type": "liquid",
+    "name": "Endofluid",
+    "temperature": 0.5,
+    "viscosity": 0.5,
+    "explosiveness": 0,
+    "heatCapacity": 1.8,
+    "color": "26b0d9",
+    "research": "arkycite",
+    "description": "An unnaturally cold organic liquid"
+}
