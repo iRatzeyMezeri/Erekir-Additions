@@ -23,7 +23,7 @@
             "padding": 2,
           },
           {
-            "type": "DrawDefault"
+            "type": "DrawRegion"
           },
           {
             "type": "DrawLiquidOutputs"
