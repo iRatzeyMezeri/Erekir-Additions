@@ -38,10 +38,10 @@
   },
   "squareSprite": false,
   "requirements": [
-    "tungsten/120",
+    "tungsten/240",
     "surge-alloy/40",
-    "static-compound/40",
-    "silicon/80",
+    "static-compound/80",
+    "silicon/160",
     "oxide/60"
   ],
   "category": "power",
