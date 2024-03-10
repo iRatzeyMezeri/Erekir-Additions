@@ -15,7 +15,7 @@
   "attribute": "sand",
   "size": 3,
   "tier": 4,
-  "drillTime": 15,
+  "drillTime": 30,
   "requirements": [
     "silicon/120",
     "beryllium/120",
