@@ -42,7 +42,7 @@
     "liquidCapacity": 60,
     "itemCapacity": 30,
     "craftTime": 180,
-    "updateEffect": "pulverise",
+    "updateEffect": "smeltsmoke",
     "category": "crafting",
     "research": "oxidation-chamber",
     "requirements": [
