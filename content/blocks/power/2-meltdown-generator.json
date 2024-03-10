@@ -12,7 +12,7 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "slag"
-        "padding": 1,
+        "padding": 2,
         "alpha": 0.8,
       },
       {
@@ -28,7 +28,7 @@
   "size": 3,
   "hasPower": true,
   "hasLiquids": true,
-  "powerProduction": 13,
+  "powerProduction": 15,
   "updateEffect": "pulverise",
   "consumes": {
     "liquids": [
