@@ -1,9 +1,0 @@
-{
-  "name": "Endofluid",
-  "type": "Floor",
-  "isLiquid": true,
-  "liquidDrop": "endofluid",
-  "cacheLayer": "water",
-  "overlayAlpha": 80,
-  "variants": 2
-}
