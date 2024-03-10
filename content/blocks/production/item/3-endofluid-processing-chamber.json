@@ -60,10 +60,10 @@
     "category": "crafting",
     "research": "electrolyzer",
     "requirements": [
-      "tungsten/180",
-      "static-compound/120",
-      "silicon/80",
-      "carbide/40",
-      "oxide/40"
+      "tungsten/320",
+      "static-compound/320",
+      "silicon/240",
+      "carbide/160",
+      "oxide/160"
     ],
 }
