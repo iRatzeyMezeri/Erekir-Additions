@@ -47,7 +47,9 @@
           },
           {
             "type": "DrawCircles",
-            "color": 
+            "color": "cad9ef",
+            "strokeMax": 5,
+            "radius": 25
           },
           {
             "type": "DrawArcSmelt",
