@@ -3,7 +3,7 @@
     "description": "Combines Static Compound, Surge alloy, Spectral Vapor and Oxide into Spectral Alloy",
     "type": "HeatCrafter",
     "health": 1680,
-    "outputItem": {"item": "spectral-alloy", "amount": 1},
+    "outputItem": {"item": "spectral-alloy", "amount": 6},
     "consumes": {
         "power": 8,
         "items": [
@@ -58,7 +58,7 @@
     "liquidCapacity": 120,
     "itemCapacity": 30,
     "heatRequirement": 24,
-    "craftTime": 120,
+    "craftTime": 180,
     "updateEffect": "pulverize",
     "category": "crafting",
     "research": "surge-crucible",
