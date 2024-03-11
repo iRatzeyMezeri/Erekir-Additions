@@ -23,6 +23,11 @@
             "suffix": "-bottom"
           },
           {
+            "type": "DrawArcSmelt",
+            "flameRad": 7,
+            "particleLen": 12,
+          },
+          {
             "type": "DrawDefault"
           },
           {
@@ -38,7 +43,7 @@
             "color": "cad9ef"
           },
           {
-            "type": "DrawCells"
+            "type": "DrawSoftParticles"
           },
           {
             "type": "DrawArcSmelt",
