@@ -47,8 +47,8 @@
           },
           {
             "type": "DrawCircles",
-            "color": "cad9ef",
-            "strokeMax": 5,
+            "color": "cad9efaa",
+            "strokeMax": 1,
             "radius": 25
           },
           {
