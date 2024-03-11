@@ -32,6 +32,7 @@
             "type": "DrawLiquidRegion",
             "drawLiquid": "spectral-vapor",
             "suffix": "-vapor"
+          },
           {
             "type": "DrawGlowRegion",
             "color": "cad9ef"
