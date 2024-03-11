@@ -40,10 +40,14 @@
           },
           {
             "type": "DrawGlowRegion",
-            "color": "cad9ef"
+            "color": "cad9efaa",
+            "strokeMax": 5,
+            "radius": 20,
+            "amount": 10,
           },
           {
-            "type": "DrawSoftParticles"
+            "type": "DrawCircles",
+            "color": 
           },
           {
             "type": "DrawArcSmelt",
@@ -58,7 +62,7 @@
     "liquidCapacity": 120,
     "itemCapacity": 30,
     "heatRequirement": 24,
-    "craftTime": 180,
+    "craftTime": 360,
     "updateEffect": "pulverize",
     "category": "crafting",
     "research": "surge-crucible",
