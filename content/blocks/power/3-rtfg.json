@@ -35,7 +35,7 @@
   },
   "health": 880,
   "size": 3,
-  "squaresprite": false,
+  "squareSprite": false,
   "hasPower": true,
   "hasLiquids": true,
   "powerProduction": 22,
