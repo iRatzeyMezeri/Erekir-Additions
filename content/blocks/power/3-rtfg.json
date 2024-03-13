@@ -12,7 +12,8 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "ozone",
-        "alpha": 0.5
+        "alpha": 0.5,
+        "padding": 2
       },
       {
         "type": "DrawRegion",
