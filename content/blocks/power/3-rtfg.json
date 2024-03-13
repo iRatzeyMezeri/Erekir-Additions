@@ -1,0 +1,58 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Radioisotope Thermal Fusion Generator",
+  "description": "Uses coal and water to generate power",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "alpha": 0.5
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-slightbottom",
+      },
+      {
+        "type": "DrawPlasma",
+      },
+      
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "fdb380"
+      },
+    ]
+  },
+  "health": 880,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "powerProduction": 22,
+  "updateEffect": "pulverise",
+  "consumes": {
+    "items": [
+      "thorium/1"
+    ],
+    "liquid": {
+      "liquid": "oxygen",
+      "amount": 0.066666666666666
+    }
+  },
+  "requirements": [
+    "silicon/240",
+    "tungsten/180",
+    "static-compound/60",
+    "thorium/120",
+    "oxide/60",
+  ],
+  "category": "power",
+  "research": "2-meltdown-generator"
+}
