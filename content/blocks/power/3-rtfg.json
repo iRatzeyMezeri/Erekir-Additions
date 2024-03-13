@@ -20,8 +20,10 @@
       },
       {
         "type": "DrawPlasma",
+        "suffix": "-plasma",
+        "plasma1": "bf92f8",
+        "plasma2": "ffbdd4",
       },
-      
       {
         "type": "DrawDefault"
       },
