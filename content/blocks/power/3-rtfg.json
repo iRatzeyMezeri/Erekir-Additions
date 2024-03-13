@@ -11,7 +11,7 @@
       },
       {
         "type": "DrawLiquidTile",
-        "drawLiquid": "oxygen",
+        "drawLiquid": "ozone",
         "alpha": 0.5
       },
       {
@@ -44,7 +44,7 @@
       "thorium/1"
     ],
     "liquid": {
-      "liquid": "oxygen",
+      "liquid": "ozone",
       "amount": 0.066666666666666
     }
   },
