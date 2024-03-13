@@ -23,7 +23,9 @@
       },
       {
         "type": "DrawHeatOutput"
-      },
+      }
+    ]
+  }
   "requirements": [
     "beryllium/120",
     "carbide/120",
