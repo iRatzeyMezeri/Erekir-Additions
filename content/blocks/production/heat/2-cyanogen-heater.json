@@ -1,0 +1,46 @@
+{
+  "name": "Cyanogen Heater",
+  "description": "Uses cyanogen to produce large amounts heat",
+  "type": "HeatProducer",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "cyanogen",
+        "alpha": 0.8,
+      {
+        "type": "DrawDefault",
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "fdb380"
+      },
+      {
+        "type": "DrawHeatOutput"
+      },
+  "requirements": [
+    "beryllium/120",
+    "carbide/120",
+    "tungsten/120",
+    "static-compound/60",
+    "oxide/60",
+  ],
+  "size": 3,
+  "heatOutput": 18,
+  "regionRotated1": 1,
+  "ambientSound": "hum",
+  "itemCapacity": "10",
+  "consumes": {
+    "liquids": [
+      "cyanogen/0.1"
+    ]
+  },
+  "research": "slag-heater",
+  "category": "crafting",
+  "craftTime": "60",
+}
