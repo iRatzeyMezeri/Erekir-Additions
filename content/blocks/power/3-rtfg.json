@@ -1,7 +1,7 @@
 {
   "type": "ConsumeGenerator",
   "name": "Radioisotope Thermal Fusion Generator",
-  "description": "Uses coal and water to generate power",
+  "description": "Uses thorium and ozone to generate power",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -35,6 +35,7 @@
   },
   "health": 880,
   "size": 3,
+  "squaresprite": false,
   "hasPower": true,
   "hasLiquids": true,
   "powerProduction": 22,
