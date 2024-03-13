@@ -1,0 +1,25 @@
+{
+  "name": "Electrostatic Heater",
+  "description": "Uses surge alloy to produce heat",
+  "type": "HeatProducer",
+  "requirements": [
+    "silicon/60",
+    "thorium/60",
+    "tungsten/60",
+    "oxide/40",
+    "surge-alloy/20",
+  ],
+  "size": 2,
+  "heatOutput": 12,
+  "regionRotated1": 1,
+  "ambientSound": "hum",
+  "itemCapacity": "10",
+  "consumes": {
+    "items": [
+      "surge-alloy/1"
+    ]
+  },
+  "research": "electric-heater",
+  "category": "crafting",
+  "craftTime": "360",
+}
