@@ -1,6 +1,8 @@
+
+// description by @pieceofbread4029 from mindustry discord
 {
-  "name": "Electrostatic Heater",
-  "description": "Uses surge alloy to produce heat",
+  "name": "Electrostatic Current Heater",
+  "description": "Runs extreme currents through surge alloy, generating extreme heat at the cost of destroying the alloy.",
   "type": "HeatProducer",
   "requirements": [
     "silicon/60",
