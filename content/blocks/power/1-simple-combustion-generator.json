@@ -2,6 +2,7 @@
   "type": "ConsumeGenerator",
   "name": "Simple Combustion Generator",
   "description": "Uses coal and water to generate power",
+  "squareSprite": false,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
