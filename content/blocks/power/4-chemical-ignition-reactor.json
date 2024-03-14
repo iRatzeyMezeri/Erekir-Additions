@@ -22,7 +22,7 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "arkycite"
-        "padding": 20,
+        "padding": 10,
         "alpha": 0.8,
       },
       {
