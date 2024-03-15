@@ -16,6 +16,9 @@
         "alpha": 0.8,
       },
       {
+        "type": "DrawPistons",
+      },
+      {
         "type": "DrawRegion",
         "suffix": "-mid"
       },
