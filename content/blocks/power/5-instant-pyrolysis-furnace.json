@@ -37,8 +37,8 @@
   "powerProduction": 162,
   "consumes": {
     "liquids": [
-      "slag/3",
-      "arkycite/3",
+      "slag/1.333334",
+      "arkycite/2.666667",
       "arsenogen/0.1",
     ]
   },
