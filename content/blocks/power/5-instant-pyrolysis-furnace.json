@@ -12,7 +12,8 @@
       {
         "type": "DrawPistons",
         "sides": 8,
-        "sideOffset": 1.07
+        "sideOffset": 1.07,
+        "sinMag": 3,
       },
       {
         "type": "DrawLiquidTile",
