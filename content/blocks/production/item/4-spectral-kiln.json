@@ -5,14 +5,14 @@
     "health": 1680,
     "outputItem": {"item": "spectral-alloy", "amount": 6},
     "consumes": {
-        "power": 8,
+        "power": 48,
         "items": [
           "static-compound/3",
           "surge-alloy/4",
           "oxide/3",
         ],
         "liquids": [
-          "spectral-vapor/1.75"
+          "spectral-vapor/0.175"
         ]
     },
     "drawer": {
