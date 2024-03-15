@@ -1,0 +1,57 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Instant Pyrolysis Furnace",
+  "description": "A Better version of the Pyrolysis Generator. Uses Arkycite, Slag, and Arsenogen",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawPistons",
+        "sides": 8,
+        "sideOffset": 1.07
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "arkycite"
+        "padding": 13,
+        "alpha": 0.8,
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "fdb380",
+      },
+    ]
+  },
+  "health": 1860,
+  "size": 5,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 600,
+  "powerProduction": 162,
+  "consumes": {
+    "liquids": [
+      "slag/3",
+      "arkycite/3",
+      "arsenogen/0.1",
+    ]
+  },
+  "squareSprite": false,
+  "requirements": [
+    "silicon/600",
+    "thorium/440",
+    "static-compound/700",
+    "carbide/700",
+    "phase-fabric/700",
+    "spectral-alloy/300",
+    "oxide/500"
+  ],
+  "category": "power",
+  "research": "pyrolysis-generator"
+}
