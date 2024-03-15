@@ -5,7 +5,7 @@
     "health": 980,
     "outputLiquid": {"liquid": "arkycite", "amount": 0.666667},
     "consumes": {
-        "power": 6,
+        "power": 3,
         "items": [
           "beryllium/2"
         ],
