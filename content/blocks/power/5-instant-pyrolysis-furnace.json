@@ -17,7 +17,7 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "arkycite"
-        "padding": 13,
+        "padding": 16,
         "alpha": 0.8,
       },
       {
@@ -42,6 +42,7 @@
       "arsenogen/0.1",
     ]
   },
+  "craftTime": 60,
   "squareSprite": false,
   "requirements": [
     "silicon/600",
