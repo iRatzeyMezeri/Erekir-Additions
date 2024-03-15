@@ -1,0 +1,52 @@
+{
+    "name": "Arkycite Mixer",
+    "description": "Mixes Beryllium, Water and Nitrogen into Arkycite",
+    "type": "GenericCrafter",
+    "health": 980,
+    "outputLiquid": {"liquid": "arkycite", "amount": 0.666667},
+    "consumes": {
+        "power": 6,
+        "items": [
+          "beryllium/2"
+        ],
+        "liquids": [
+          "nitrogen/0.1",
+          "water/0.125",
+        ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+              "type": "DrawRegion",
+              "suffix": "-bottom",
+            },
+            {
+              "type": "DrawLiquidTile",
+              "padding": 2,
+              "drawLiquid": "arkycite",
+              "alpha": 0.8,
+            },
+            {
+              "type": "DrawDefault"
+            }
+        ],
+    },
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+    "itemCapacity": 30,
+    "craftTime": 60,
+    "updateEffect": "smeltsmoke",
+    "category": "crafting",
+    "research": "electrolyzer",
+    "requirements": [
+      "tungsten/120",
+      "thorium/60",
+      "silicon/120",
+      "static-compound/40",
+      "oxide/40"
+    ],
+}
