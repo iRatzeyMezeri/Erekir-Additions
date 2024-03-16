@@ -1,0 +1,41 @@
+{
+  "name": "Letter",
+  "description": "A simple tripod unit armed with a small missile launcher",
+  "type": "legs",
+  "outlineColor": "2e2f34",
+  "flying": false,
+  "speed": 1.2,
+  "hitSize": 10,
+  "health": 540,
+  "weapons": [
+    {
+      "name": "b1-letter-launcher",
+      "top": true,
+      "y": 3,
+      "reload": 20,
+      "x": 0,
+      "mirror": false,
+      "shootSound": "shootbig",
+      "bullet": {
+        "type": "basicBulletType",
+        "sprite": "circle",
+        "damage": 10,
+        "splashDamage": 20,
+        "splashDamageRadius": 16
+        "pierceBuilding": false,
+        "pierce": false,
+        "speed": 4,
+        "weaveMag": 3,
+        "weaveScale": 3,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 4,
+        "height": 4,
+        "lifetime": 40,
+        "lightColor": "f5c4d6",
+        "colorFrom": "f5c4d6",
+        "colorTo": "eb9fbc",
+      }
+    }
+  ]
+}
