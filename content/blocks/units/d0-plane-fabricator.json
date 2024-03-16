@@ -19,7 +19,7 @@
     },
   ],
   "research": {
-    "ship-fabricator",
+    "parent": "ship-fabricator",
     "objectives": [
       "ship-fabricator",
       {
