@@ -1,0 +1,53 @@
+{
+  "name": "Mass",
+  "description": "A small Hoverboard unit with 2 small laser weapons that can heal friendly structures",
+  "type": "hover",
+  "hitSize": 11,
+  "speed": 2,
+  "accel": 0.1,
+  "drag": 0.1,
+  "parts": [
+    {
+      "type": "HoverPart",
+      "x": 4,
+      "y": 1,
+      "mirror": true,
+      "radius": 6,
+      "phase": 90,
+      "stroke": 2,
+      "layerOffset": -0.001,
+      "color": "91aaed",
+    }
+  ],
+  "flying": false,
+  "health": 640,
+  "circleTarget": false,
+  "weapons": [
+    {
+      "name": "c1-mass-weapon",
+      "top": true,
+      "y": 3,
+      "x": -2.5,
+      "reload": 30,
+      "inaccuracy": 0,
+      "mirror": true,
+      "alternate": true,
+      "shootSound": "sap",
+      "bullet": {
+        "type": "shrapnelBulletType",
+        "lifetime": 20,
+        "damage": 20,
+        "serrations": 1,
+        "fromColor": "91aaed",
+        "toColor": "5e7ccb",
+        "length": 120,
+        "width": 5,
+        "hitEffect": "blastExplosion",
+        "shootEffect": "blastExplosion",
+        "pierce": true,
+        "healAmount": 10,
+        "healColor": "91aaed"
+      }
+    }
+  ]
+}
