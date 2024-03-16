@@ -22,10 +22,7 @@
     "parent": "ship-fabricator",
     "objectives": [
       "ship-fabricator",
-      {
-        "type": "OnSector",
-        "preset": "Split",
-      }
+      "mech-refabricator"
     ]
   },
   "requirements": [
