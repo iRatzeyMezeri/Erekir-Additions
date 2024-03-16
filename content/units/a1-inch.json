@@ -1,0 +1,58 @@
+{
+  "name": "Inch",
+  "description": "A small walker-type unit with 2 weak shotguns",
+  "type": "mech",
+  "outlineColor": "2e2f34",
+  "flying": false,
+  "speed": 1.2,
+  "hitSize": 10,
+  "health": 720,
+  "weapons": [
+    {
+      "name": "defeat-weapon",
+      "top": false,
+      "y": 2,
+      "reload": 30,
+      "x": 0,
+      "mirror": false,
+      "shootSound": "sap",
+      "bullet": {
+        "type": "basicBulletType",
+        "sprite": "circle",
+        "damage": 10,
+        "pierceBuilding": false,
+        "pierce": false,
+        "trailColor": "f7c749",
+        "trailLength": 12,
+        "trailWidth": 2,
+        "speed": 3,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 3,
+        "height": 3,
+        "lifetime": 40,
+        "lightColor": "f1ffa9",
+        "colorFrom": "f1ffa9",
+        "colorTo": "f7c749",
+        "fragBullets": 3,
+        "fragBullet": {
+          "type": "basicBulletType",
+          "sprite": "circle",
+          "damage": 5,
+          "pierce": true,
+          "pierceBuilding": true,
+          "speed": 5,
+          "shrinkY": 0,
+          "shrinkX": 0,
+          "width": 2,
+          "height": 2,
+          "trailColor": "f7c749",
+          "trailLength": 6,
+          "trailWidth": 1,
+          "homingPower": 1,
+          "homingRange": 20,
+        }
+      }
+    }
+  ]
+}
