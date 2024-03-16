@@ -1,0 +1,19 @@
+{
+  "name": "Magnet",
+  "description": "A small flying support unit that cannot attack, but can heal nearby units"
+  "flying": true,
+  "speed": 2.8,
+  "drag": 0.1,
+  "hitSize": 10,
+  "health": 720,
+  "itemCapacity": 10,
+  "engineColor": "77debc",
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "range": 40,
+      "amount": 30,
+      "reload": 120,
+    }
+  ]
+}
