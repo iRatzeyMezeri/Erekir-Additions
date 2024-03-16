@@ -1,0 +1,28 @@
+{
+  "name": "Hoverboard Fabricator",
+  "description": "Constructs Hoverboard-type Mass units",
+  "type": "UnitFactory",
+  "size": 3,
+  "configurable": false,
+  "category": "units",
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "c1-mass",
+      "requirements": [
+        "silicon/40",
+        "beryllium/100"
+      ],
+      "time": 600
+    },
+  ],
+  "research": "ship-fabricator",
+  "requirements": [
+    "beryllium/200",
+    "tungsten/80",
+    "silicon/100",
+    "graphite/100",
+  ]
+}
