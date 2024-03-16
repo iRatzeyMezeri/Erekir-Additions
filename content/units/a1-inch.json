@@ -12,7 +12,7 @@
       "name": "a1-inch-shotgun",
       "top": true,
       "y": 0,
-      "reload": 30,
+      "reload": 60,
       "x": 4,
       "mirror": true,
       "alternate": false,
