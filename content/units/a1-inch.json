@@ -36,6 +36,8 @@
         "colorFrom": "f1ffa9",
         "colorTo": "f7c749",
         "fragBullets": 3,
+        "fragRandomSpread": 0,
+        "fragSpread": 10,
         "fragBullet": {
           "type": "basicBulletType",
           "sprite": "circle",
@@ -43,6 +45,7 @@
           "pierce": true,
           "pierceBuilding": true,
           "speed": 5,
+          "lifetime": 15,
           "shrinkY": 0,
           "shrinkX": 0,
           "width": 2,
@@ -50,8 +53,6 @@
           "trailColor": "f7c749",
           "trailLength": 6,
           "trailWidth": 1,
-          "homingPower": 1,
-          "homingRange": 20,
         }
       }
     }
