@@ -1,10 +1,9 @@
 {
   "name": "Letter",
-  "description": "A simple tripod unit armed with a small missile launcher",
+  "description": "A simple hunter unit armed with a small missile launcher",
   "type": "legs",
   "outlineColor": "2e2f34",
   "flying": false,
-  "legCount": 3,
   "speed": 1.2,
   "hitSize": 10,
   "health": 540,
