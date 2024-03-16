@@ -56,7 +56,7 @@
         "hitEffect": "blastExplosion",
         "shootEffect": "blastExplosion",
         "pierce": true,
-        "healAmount": 10,
+        "healAmount": 15,
         "healColor": "91aaed"
       }
     }
