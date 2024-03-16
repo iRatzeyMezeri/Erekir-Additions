@@ -24,7 +24,7 @@
       "ship-fabricator",
       {
         "type": "OnSector",
-        "preset": "Basin",
+        "preset": "four",
       }
     ]
   },
