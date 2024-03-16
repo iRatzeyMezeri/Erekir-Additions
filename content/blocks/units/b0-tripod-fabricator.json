@@ -2,6 +2,7 @@
   "name": "Hunter Fabricator",
   "description": "Constructs Hunter-type Letter units",
   "type": "UnitFactory",
+  "regionSuffix": "-dark",
   "size": 3,
   "configurable": false,
   "category": "units",
