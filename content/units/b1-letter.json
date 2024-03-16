@@ -1,6 +1,7 @@
 {
   "name": "Letter",
   "description": "A simple hunter unit armed with a small missile launcher",
+  "template": "ErekirUnitType",
   "type": "legs",
   "outlineColor": "2e2f34",
   "flying": false,
