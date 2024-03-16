@@ -9,13 +9,14 @@
   "health": 720,
   "weapons": [
     {
-      "name": "defeat-weapon",
-      "top": false,
-      "y": 2,
+      "name": "a1-inch-shotgun",
+      "top": true,
+      "y": 0,
       "reload": 30,
-      "x": 0,
-      "mirror": false,
-      "shootSound": "sap",
+      "x": 4,
+      "mirror": true,
+      "alternate": false,
+      "shootSound": "shotgun",
       "bullet": {
         "type": "basicBulletType",
         "sprite": "circle",
