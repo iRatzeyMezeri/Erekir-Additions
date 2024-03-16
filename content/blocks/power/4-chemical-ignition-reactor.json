@@ -70,6 +70,7 @@
     "spectral-alloy/240",
     "oxide/480"
   ],
+  "craftTime": 60,
   "category": "power",
   "research": "chemical-combustion-chamber"
 }
