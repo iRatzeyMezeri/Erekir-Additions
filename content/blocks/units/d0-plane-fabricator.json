@@ -2,6 +2,7 @@
   "name": "Plane Fabricator",
   "description": "Constructs Suppor Plane-type Magnet units",
   "type": "UnitFactory",
+  "regionSuffix": "-dark",
   "size": 3,
   "configurable": false,
   "category": "units",
