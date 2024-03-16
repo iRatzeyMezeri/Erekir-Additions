@@ -4,6 +4,7 @@
   "type": "hover",
   "outlineColor": "2e2f34",
   "hitSize": 11,
+  "hovering": true,
   "speed": 2,
   "accel": 0.1,
   "drag": 0.1,
@@ -38,8 +39,8 @@
     {
       "name": "c1-mass-weapon",
       "top": true,
-      "y": 3,
-      "x": -4,
+      "y": 2.7,
+      "x": -4.2,
       "reload": 30,
       "inaccuracy": 0,
       "mirror": true,
