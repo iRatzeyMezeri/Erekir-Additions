@@ -1,6 +1,7 @@
 {
   "name": "Magnet",
   "description": "A small flying support unit that cannot attack, but can heal nearby units"
+  "outlineColor": "2e2f34",
   "flying": true,
   "speed": 2.8,
   "drag": 0.1,
