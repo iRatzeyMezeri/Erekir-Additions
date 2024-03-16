@@ -11,7 +11,7 @@
     {
       "type": "HoverPart",
       "x": 4,
-      "y": 0,
+      "y": -0.5,
       "mirror": true,
       "radius": 6,
       "phase": 90,
@@ -22,7 +22,7 @@
     {
       "type": "HoverPart",
       "x": 4,
-      "y": 3,
+      "y": 10,
       "mirror": true,
       "radius": 6,
       "phase": 90,
