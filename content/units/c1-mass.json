@@ -2,6 +2,7 @@
   "name": "Mass",
   "description": "A small Hoverboard unit with 2 small laser weapons that can heal friendly structures",
   "type": "hover",
+  "outlineColor": "2e2f34",
   "hitSize": 11,
   "speed": 2,
   "accel": 0.1,
