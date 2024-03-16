@@ -2,6 +2,7 @@
   "name": "Hoverboard Fabricator",
   "description": "Constructs Hoverboard-type Mass units",
   "type": "UnitFactory",
+  "regionSuffix": "-dark",
   "size": 3,
   "configurable": false,
   "category": "units",
