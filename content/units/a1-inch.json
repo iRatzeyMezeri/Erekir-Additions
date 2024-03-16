@@ -1,6 +1,7 @@
 {
   "name": "Inch",
   "description": "A small walker-type unit with 2 weak shotguns",
+  "template": "ErekirUnitType",
   "type": "mech",
   "outlineColor": "2e2f34",
   "flying": false,
