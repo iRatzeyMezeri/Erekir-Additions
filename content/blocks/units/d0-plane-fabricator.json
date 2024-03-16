@@ -1,0 +1,36 @@
+{
+  "name": "Plane Fabricator",
+  "description": "Constructs Suppor Plane-type Magnet units",
+  "type": "UnitFactory",
+  "size": 3,
+  "configurable": false,
+  "category": "units",
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "d1-magnet",
+      "requirements": [
+        "silicon/40",
+        "tungsten/20"
+      ],
+      "time": 300
+    },
+  ],
+  "research": {
+    "ship-fabricator",
+    "objectives": [
+      "ship-fabricator",
+      {
+        "type": "OnSector",
+        "preset": "Basin",
+      }
+    ]
+  },
+  "requirements": [
+    "beryllium/200",
+    "tungsten/120",
+    "silicon/160"
+  ]
+}
