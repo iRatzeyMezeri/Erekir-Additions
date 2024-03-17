@@ -10,7 +10,7 @@
       {
         "type": "drawPartRegion",
         "recoilIndex": 0,
-        "moveY": -1.5,
+        "moveY": -3.5,
         "suffix": "-blade-l",
         "heatProgress": "recoil",
         "progress": "recoil"
@@ -18,7 +18,7 @@
       {
         "type": "drawPartRegion",
         "recoilIndex": 1,
-        "moveY": -1.5,
+        "moveY": -3.5,
         "suffix": "-blade-r",
         "heatProgress": "recoil",
         "progress": "recoil"
@@ -35,7 +35,7 @@
   "shootSound": "shoot",
   "shoot": {
     "type": "ShootAlternate",
-    "shots": 4,
+    "shots": 1,
     "spread": 8,
     "shotDelay": 30,
     "barrels": 2
