@@ -7,22 +7,23 @@
     "type": "DrawTurret",
     "basePrefix": "reinforced-",
     "parts": [
-    {
-      "type": "drawPartRegion",
-      "recoilIndex": 0,
-      "moveY": -1.5,
-      "suffix": "-blade-l",
-      "heatProgress": "recoil",
-      "progress": "recoil"
-    },
-    {
-      "type": "drawPartRegion",
-      "recoilIndex": 1,
-      "moveY": -1.5,
-      "suffix": "-blade-r",
-      "heatProgress": "recoil",
-      "progress": "recoil"
-    },
+      {
+        "type": "drawPartRegion",
+        "recoilIndex": 0,
+        "moveY": -1.5,
+        "suffix": "-blade-l",
+        "heatProgress": "recoil",
+        "progress": "recoil"
+      },
+      {
+        "type": "drawPartRegion",
+        "recoilIndex": 1,
+        "moveY": -1.5,
+        "suffix": "-blade-r",
+        "heatProgress": "recoil",
+        "progress": "recoil"
+      }
+    ]
   },
   "researchCostMultiplier": 0.2,
   "health": 1440,
