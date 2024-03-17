@@ -4,7 +4,7 @@
   "difficulty": 3,
   "planet": "erekir",
   "captureWave": 16,
-  "sector": 22,
+  "sector": 24,
   "research": {
     "parent": "onset",
     "objectives": [
