@@ -34,11 +34,12 @@
   "rotateSpeed": 1,
   "shootSound": "shoot",
   "shoot": {
-    "type": "ShootAlternate",
-    "shots": 1,
-    "spread": 8,
-    "shotDelay": 30,
-    "barrels": 2
+    "type": "ShootBarrel",
+    "shotDelay": 3,
+    "barrels": [
+    3, -6, 0,
+    -3, -6, 0,
+    ]
   }
   "ammoPerShot": 2,
   "ammoTypes": {
