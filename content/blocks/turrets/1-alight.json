@@ -38,7 +38,7 @@
   "reload": 30,
   "range": 240,
   "inaccuracy": 0,
-  "recoil": 0,
+  "recoil": 2,
   "rotateSpeed": 1,
   "shootSound": "shoot",
   "recoils": 2,
@@ -46,8 +46,8 @@
     "type": "ShootBarrel",
     "shotDelay": 3,
     "barrels": [
-    3, -6, 0,
-    -3, -6, 0,
+    -2.7, -6, 0,
+    2.7, -6, 0,
     ]
   }
   "ammoTypes": {
