@@ -25,6 +25,14 @@
       }
     ]
   },
+  "consumes": {
+    "coolant": {
+      "liquid": "water",
+      "booster": 2,
+      "amount": 0.2,
+      "coolantMultiplier": 1,
+    },
+  },
   "researchCostMultiplier": 0.2,
   "health": 1440,
   "reload": 30,
