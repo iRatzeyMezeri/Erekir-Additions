@@ -1,0 +1,19 @@
+{
+  "localizedName": "Presence",
+  "type": "Sector",
+  "difficulty": 3,
+  "planet": "erekir",
+  "sector": 22,
+  "research": {
+    "parent": "onset",
+    "objectives": [
+      "presence",
+      "1-alight",
+      "1-graphite-decompressor",
+      {
+      "type": "SectorComplete",
+      "preset": "presence"
+      }
+    ]
+  }
+}
