@@ -8,7 +8,6 @@
   "research": {
     "parent": "onset",
     "objectives": [
-      "onset",
       {
       "type": "SectorComplete",
       "preset": "onset"
