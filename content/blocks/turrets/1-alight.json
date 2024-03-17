@@ -9,7 +9,7 @@
   },
   "researchCostMultiplier": 0.2,
   "health": 1440,
-  "reload": 40,
+  "reload": 60,
   "range": 240,
   "inaccuracy": 0,
   "recoil": 0,
@@ -19,7 +19,7 @@
     "type": "ShootAlternate",
     "shots": 4,
     "spread": 8,
-    "shotDelay": 20,
+    "shotDelay": 30,
     "barrels": 2
   }
   "ammoPerShot": 2,
@@ -30,18 +30,18 @@
         "damage": 10,
         "pierce": true,
         "pierceBuilding": false,
-        "speed": 3,
+        "speed": 4,
         "shrinkY": 0,
         "shrinkX": 0,
-        "width": 3,
-        "height": 3,
-        "trailColor": "bc5452",
+        "width": 6,
+        "height": 6,
+        "trailColor": "ea8878",
         "trailLength": 16,
         "trailWidth": 3,
         "lifetime": 80,
         "lightColor": "fdb380",
         "colorFrom": "fdb380",
-        "colorTo": "bc5452"
+        "colorTo": "ea8878"
       }
     },
   "requirements": [
