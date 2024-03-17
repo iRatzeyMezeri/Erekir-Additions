@@ -19,7 +19,16 @@
       "time": 2400
     },
   ],
-  "research": "mech-fabricator",
+  "research": {
+    "parent": "tank-fabricator",
+    "objectives": [
+      "tank-fabricator",
+      {
+        "type": "OnSector",
+        "preset": "presence",
+      }
+    ]
+  },
   "requirements": [
     "beryllium/200",
     "silicon/200",
