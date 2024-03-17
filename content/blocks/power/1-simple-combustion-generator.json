@@ -42,5 +42,15 @@
     "beryllium/60"
   ],
   "category": "power",
-  "research": "turbine-condenser"
+  "research": {
+    "parent": "turbine-condenser",
+    "objectives": [
+      "turbine-condenser",
+      "1-graphite-decompressor",
+      {
+      "type": "OnSector",
+      "preset": "presence"
+      }
+    ]
+  }
 }
