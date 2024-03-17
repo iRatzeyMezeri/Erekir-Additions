@@ -8,7 +8,7 @@
     "basePrefix": "reinforced-",
     "parts": [
     {
-      "type: drawPartRegion",
+      "type": "drawPartRegion",
       "recoilIndex": 0,
       "moveY": -1.5,
       "suffix": "-blade-l",
@@ -16,7 +16,7 @@
       "progress": "recoil"
     },
     {
-      "type: drawPartRegion",
+      "type": "drawPartRegion",
       "recoilIndex": 1,
       "moveY": -1.5,
       "suffix": "-blade-r",
