@@ -81,5 +81,11 @@
     "beryllium/200"
   ],
   "category": "turret",
-  "research": "breach"
+  "research": {
+    "parent": "breach",
+    "objectives": [
+      "breach",
+      "1-graphite-decompressor",
+    ]
+  }
 }
