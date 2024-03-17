@@ -3,9 +3,13 @@
   "name": "Alight",
   "description": "A fast-shooting rifle turret that uses coal as ammo",
   "size": 3,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "reinforced-",
+  },
   "researchCostMultiplier": 0.2,
   "health": 1440,
-  "reload": 10,
+  "reload": 40,
   "range": 240,
   "inaccuracy": 0,
   "recoil": 0,
@@ -15,7 +19,7 @@
     "type": "ShootAlternate",
     "shots": 4,
     "spread": 8,
-    "shotDelay": 6,
+    "shotDelay": 20,
     "barrels": 2
   }
   "ammoPerShot": 2,
