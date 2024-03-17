@@ -1,0 +1,50 @@
+{
+  "type": "ItemTurret",
+  "name": "Alight",
+  "description": "A fast-shooting rifle turret that uses coal as ammo",
+  "size": 3,
+  "researchCostMultiplier": 0.2,
+  "health": 1440,
+  "reload": 10,
+  "range": 240,
+  "inaccuracy": 0,
+  "recoil": 0,
+  "rotateSpeed": 1,
+  "shootSound": "shoot",
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 4,
+    "spread": 8,
+    "shotDelay": 6,
+    "barrels": 2
+  }
+  "ammoPerShot": 2,
+  "ammoTypes": {
+    "coal": {
+      "type": "basicBulletType",
+        "sprite": "circle",
+        "damage": 10,
+        "pierce": true,
+        "pierceBuilding": false,
+        "speed": 3,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 1,
+        "height": 1,
+        "trailColor": "bc5452",
+        "trailLength": 16,
+        "trailWidth": 2,
+        "lifetime": 80,
+        "lightColor": "fdb380",
+        "colorFrom": "fdb380",
+        "colorTo": "bc5452"
+      }
+    },
+  "requirements": [
+    "silicon/125",
+    "graphite/250",
+    "beryllium/200"
+  ],
+  "category": "turret",
+  "research": "breach"
+}
