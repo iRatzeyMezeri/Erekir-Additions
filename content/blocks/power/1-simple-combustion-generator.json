@@ -25,7 +25,7 @@
   "size": 3,
   "hasPower": true,
   "hasLiquids": true,
-  "powerProduction": 4,
+  "powerProduction": 5,
   "updateEffect": "pulverise",
   "consumes": {
     "items": [
