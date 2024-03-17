@@ -1,0 +1,18 @@
+{
+  "localizedName": "Hallway",
+  "type": "Sector",
+  "difficulty": 3,
+  "planet": "erekir",
+  "captureWave": 16,
+  "sector": 22,
+  "research": {
+    "parent": "onset",
+    "objectives": [
+      "onset",
+      {
+      "type": "SectorComplete",
+      "preset": "onset"
+      }
+    ]
+  }
+}
