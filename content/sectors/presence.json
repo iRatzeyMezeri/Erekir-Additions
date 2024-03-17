@@ -5,9 +5,8 @@
   "planet": "erekir",
   "sector": 22,
   "research": {
-    "parent": "presence",
+    "parent": "hallway",
     "objectives": [
-      "presence",
       "1-alight",
       "1-graphite-decompressor",
       {
