@@ -43,9 +43,7 @@
       "arsenogen/0.1",
     ]
   },
-  "outputLiquids": [
-    "water/1.5",
-  ],
+  "outputLiquid": { "liquid": "water", "amount": "1.5" },
   "craftTime": 60,
   "squareSprite": false,
   "requirements": [
