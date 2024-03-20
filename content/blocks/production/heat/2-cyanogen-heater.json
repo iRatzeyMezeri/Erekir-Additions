@@ -40,7 +40,7 @@
   "itemCapacity": "10",
   "consumes": {
     "liquids": [
-      "cyanogen/0.1"
+      "cyanogen/0.033334"
     ]
   },
   "research": "slag-heater",
