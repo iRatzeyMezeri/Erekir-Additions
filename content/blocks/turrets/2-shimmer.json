@@ -1,0 +1,53 @@
+{
+  "type": "LiquidTurret",
+  "name": "Shimmer",
+  "description": "A fast-shooting anti-air turret that uses hydrogen, cyanogen or spectral vapor as ammo.",
+  "size": 3,
+  "targetGround": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "reinforced-",
+  },
+  "health": 1440,
+  "reload": 4,
+  "range": 240,
+  "inaccuracy": 8,
+  "recoil": 2,
+  "rotateSpeed": 2,
+  "shootSound": "sap",
+  "recoils": 2,
+  "ammoTypes": {
+    "hydrogen": {
+      "type": "basicBulletType",
+        "sprite": "bullet",
+        "damage": 20,
+        "pierce": true,
+        "pierceBuilding": false,
+        "speed": 8,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 6,
+        "height": 6,
+        "trailColor": "aaaaff",
+        "trailLength": 16,
+        "trailWidth": 2,
+        "lifetime": 30,
+        "lightColor": "ddddff",
+        "colorFrom": "ddddff",
+        "colorTo": "aaaaff"
+      }
+    },
+  "requirements": [
+    "tungsten/250",
+    "silicon/175",
+    "graphite/250"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "1-alight",
+    "objectives": [
+      "1-alight",
+      "hydrogen",
+    ]
+  }
+}
