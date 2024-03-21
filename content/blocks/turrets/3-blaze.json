@@ -26,7 +26,7 @@
       {
         "type": "RegionPart",
         "suffix": "-side-r",
-        "progress": "warmup",
+        "progress": "recoil",
         "heatProgress": "warmup",
         "heatColor": "c6ace8aa",
         "moveRot": -10,
@@ -36,7 +36,7 @@
       {
         "type": "RegionPart",
         "suffix": "-side-l",
-        "progress": "warmup",
+        "progress": "recoil",
         "heatProgress": "warmup",
         "heatColor": "c6ace8aa",
         "moveRot": 10,
@@ -44,14 +44,6 @@
         "moveX": -1,
       },
     ]
-  },
-  "consumes": {
-    "coolant": {
-      "liquid": "water",
-      "booster": 2,
-      "amount": 0.2,
-      "coolantMultiplier": 1.5,
-    },
   },
   "health": 1840,
   "shootY": 5
