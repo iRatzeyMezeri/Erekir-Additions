@@ -20,15 +20,15 @@
         "type": "RegionPart",
         "suffix": "-side-r",
         "progress": "warmup",
-        "moveRot": -30,
-        "moveY": 0.5,
+        "moveRot": 30,
+        "moveY": -1,
       },
       {
         "type": "RegionPart",
         "suffix": "-side-l",
         "progress": "warmup",
-        "moveRot": 30,
-        "moveY": 0.5,
+        "moveRot": -30,
+        "moveY": 1,
       }
     ]
   },
