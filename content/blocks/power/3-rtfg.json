@@ -39,7 +39,7 @@
   "squareSprite": false,
   "hasPower": true,
   "hasLiquids": true,
-  "powerProduction": 22,
+  "powerProduction": 16,
   "updateEffect": "pulverise",
   "consumes": {
     "items": [
