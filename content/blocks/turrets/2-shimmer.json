@@ -13,7 +13,7 @@
         "suffix": "-main",
         "progress": "warmup",
         "heatProgress": "warmup",
-        "heatColor": "d1efff",
+        "heatColor": "d1efffaa",
         "moveY": -3,
       },
       {
@@ -21,21 +21,24 @@
         "suffix": "-side-r",
         "progress": "warmup",
         "moveRot": -30,
+        "moveY": -3,
       },
       {
         "type": "RegionPart",
         "suffix": "-side-l",
         "progress": "warmup",
         "moveRot": 30,
+        "moveY": -3,
       }
     ]
   },
   
   "health": 1580,
+  "shootY": 5
   "reload": 6,
   "range": 240,
   "inaccuracy": 8,
-  "recoil": 1,
+  "recoil": 0.4,
   "rotateSpeed": 2,
   "shootSound": "sap",
   "recoils": 2,
