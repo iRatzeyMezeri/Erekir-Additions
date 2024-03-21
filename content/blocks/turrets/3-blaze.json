@@ -1,0 +1,100 @@
+{
+  "type": "LiquidTurret",
+  "name": "Deteriorate",
+  "description": "Shoots sparking nitrogen projectiles into your enemies.",
+  "size": 3,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "reinforced-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-main",
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "heatColor": "c6ace8aa",
+        "moveY": -1,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "heatColor": "c6ace8aa",
+        "moveY": -5,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-r",
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "heatColor": "c6ace8aa",
+        "moveRot": -10,
+        "moveY": -1,
+        "moveX": 1,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-l",
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "heatColor": "c6ace8aa",
+        "moveRot": 10,
+        "moveY": -1,
+        "moveX": -1,
+      },
+    ]
+  },
+  
+  "health": 1840,
+  "shootY": 5
+  "reload": 100,
+  "range": 270,
+  "inaccuracy": 8,
+  "recoil": 2,
+  "rotateSpeed": 2,
+  "shootSound": "shockBlast",
+  "recoils": 2,
+  "ammoTypes": {
+    "nitrogen": {
+      "type": "basicBulletType",
+        "sprite": "large-orb",
+        "damage": 60,
+        "splashDamage": 100,
+        "splashDamageRadius": 24,
+        "pierce": true,
+        "pierceBuilding": false,
+        "speed": 3,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 16,
+        "height": 16,
+        "lifetime": 90,
+        "lightColor": "ffffff",
+        "colorFrom": "ffffff",
+        "colorTo": "c6ace8",
+        "intervalBullet": {
+          "type": "LightningBulletType",
+          "collidesAir": true,
+          "damage": 20,
+          "lightningColor": "c6ace8",
+          "lightningLength": 4,
+          "lightningLengthRand": 7,
+        }
+      }
+    },
+  "requirements": [
+    "tungsten/250",
+    "silicon/200",
+    "oxide/50",
+    "static-compound/50"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "sublimate",
+    "objectives": [
+      "sublimate",
+      "nitrogen",
+    ]
+  }
+}
