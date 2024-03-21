@@ -21,14 +21,12 @@
         "suffix": "-side-r",
         "progress": "warmup",
         "moveRot": -30,
-        "moveY": -3,
       },
       {
         "type": "RegionPart",
         "suffix": "-side-l",
         "progress": "warmup",
         "moveRot": 30,
-        "moveY": -3,
       }
     ]
   },
