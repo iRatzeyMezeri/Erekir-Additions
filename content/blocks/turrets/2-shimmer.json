@@ -7,9 +7,27 @@
   "drawer": {
     "type": "DrawTurret",
     "basePrefix": "reinforced-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "mirror": true,
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "heatColor": "d1efff",
+        "moveY": 5,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side",
+        "mirror": true,
+        "progress": "warmup",
+        "moveRot": -30,
+      }
+    ]
   },
-  "health": 1440,
-  "reload": 4,
+  
+  "health": 1580,
+  "reload": 6,
   "range": 240,
   "inaccuracy": 8,
   "recoil": 2,
@@ -28,13 +46,13 @@
         "shrinkX": 0,
         "width": 6,
         "height": 6,
-        "trailColor": "aaaaff",
+        "trailColor": "8ca9e8",
         "trailLength": 16,
         "trailWidth": 2,
         "lifetime": 30,
-        "lightColor": "ddddff",
-        "colorFrom": "ddddff",
-        "colorTo": "aaaaff"
+        "lightColor": "d1efff",
+        "colorFrom": "d1efff",
+        "colorTo": "8ca9e8"
       }
     },
   "requirements": [
