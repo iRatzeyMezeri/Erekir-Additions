@@ -35,7 +35,7 @@
   },
   "researchCostMultiplier": 0.2,
   "health": 1440,
-  "reload": 40,
+  "reload": 25,
   "range": 240,
   "inaccuracy": 0,
   "recoil": 2,
@@ -54,7 +54,7 @@
     "coal": {
       "type": "basicBulletType",
         "sprite": "bullet",
-        "damage": 40,
+        "damage": 30,
         "weaveScl": 1,
         "weaveMag": 1,
         "pierce": true,
