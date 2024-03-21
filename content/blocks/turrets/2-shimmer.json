@@ -46,7 +46,7 @@
     "hydrogen": {
       "type": "basicBulletType",
         "sprite": "bullet",
-        "damage": 20,
+        "damage": 40,
         "pierce": true,
         "pierceBuilding": false,
         "speed": 8,
