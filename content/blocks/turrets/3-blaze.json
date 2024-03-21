@@ -13,7 +13,7 @@
         "progress": "warmup",
         "heatProgress": "warmup",
         "heatColor": "c6ace8aa",
-        "moveY": -1,
+        "moveY": 1,
       },
       {
         "type": "RegionPart",
@@ -21,7 +21,7 @@
         "progress": "warmup",
         "heatProgress": "warmup",
         "heatColor": "c6ace8aa",
-        "moveY": -5,
+        "moveY": -3,
       },
       {
         "type": "RegionPart",
@@ -30,7 +30,7 @@
         "heatProgress": "warmup",
         "heatColor": "c6ace8aa",
         "moveRot": -10,
-        "moveY": -1,
+        "moveY": 1,
         "moveX": 1,
       },
       {
@@ -40,12 +40,19 @@
         "heatProgress": "warmup",
         "heatColor": "c6ace8aa",
         "moveRot": 10,
-        "moveY": -1,
+        "moveY": 1,
         "moveX": -1,
       },
     ]
   },
-  
+  "consumes": {
+    "coolant": {
+      "liquid": "water",
+      "booster": 2,
+      "amount": 0.2,
+      "coolantMultiplier": 1.5,
+    },
+  },
   "health": 1840,
   "shootY": 5
   "reload": 100,
@@ -80,6 +87,7 @@
           "lightningColor": "c6ace8",
           "lightningLength": 4,
           "lightningLengthRand": 7,
+          "lightning": 6,
         }
       }
     },
