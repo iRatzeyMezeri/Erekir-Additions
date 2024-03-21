@@ -1,7 +1,7 @@
 {
   "type": "LiquidTurret",
   "name": "Shimmer",
-  "description": "A fast-shooting anti-air turret that uses hydrogen, cyanogen or spectral vapor as ammo.",
+  "description": "A fast-shooting anti-air turret that uses hydrogen as ammo.",
   "size": 3,
   "targetGround": false,
   "drawer": {
@@ -21,12 +21,14 @@
         "suffix": "-side-r",
         "progress": "warmup",
         "moveRot": -30,
+        "moveY": 0.5,
       },
       {
         "type": "RegionPart",
         "suffix": "-side-l",
         "progress": "warmup",
         "moveRot": 30,
+        "moveY": 0.5,
       }
     ]
   },
