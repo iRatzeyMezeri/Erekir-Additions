@@ -19,13 +19,14 @@
         "type": "RegionPart",
         "suffix": "-side-r",
         "progress": "warmup",
+        "heatProgress": "warmup",
         "moveX": 1,
       },
       {
         "type": "RegionPart",
         "suffix": "-side-l",
         "progress": "warmup",
-        "moveRot": -30,
+        "heatProgress": "warmup",
         "moveX": -1,
       }
     ]
