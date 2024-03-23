@@ -1,0 +1,80 @@
+{
+  "type": "ItemTurret",
+  "name": "Drought",
+  "description": "Fires a slow projectile into your ground enemies. Deals Slpash damage on impact",
+  "size": 3,
+  "targetAir": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "reinforced-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "progress": "recoil",
+        "heatProgress": "recoil",
+        "moveY": -2,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-r",
+        "progress": "warmup",
+        "moveX": 1,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-l",
+        "progress": "warmup",
+        "moveRot": -30,
+        "moveX": -1,
+      }
+    ]
+  },
+  
+  "health": 1720,
+  "reload": 120,
+  "range": 240,
+  "inaccuracy": 0,
+  "recoil": 2,
+  "rotateSpeed": 1,
+  "shootSound": "bigshot",
+  "ammoPerShot": 8,
+  "itemCapacity": 24,
+  "ammoTypes": {
+    "sand": {
+      "type": "basicBulletType",
+        "sprite": "bullet",
+        "ammoMultiplier": 1,
+        "damage": 30,
+        "splashDamage": "90",
+        "splashDamageRadius": "48",
+        "pierce": false,
+        "pierceBuilding": false,
+        "speed": 2,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 8,
+        "height": 8,
+        "lifetime": 120,
+        "lightColor": "ffecd1",
+        "colorFrom": "e3a76a",
+        "colorTo": "e3a76a"
+      }
+    },
+  "requirements": [
+    "beryllium/125",
+    "silicon/200",
+    "graphite/200"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "breach",
+    "objectives": [
+      "breach",
+      {
+        "type": "OnSector",
+        "preset": "presence",
+      }
+    ]
+  }
+}
