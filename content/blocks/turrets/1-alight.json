@@ -22,6 +22,18 @@
         "suffix": "-blade-r",
         "heatProgress": "recoil",
         "progress": "recoil"
+      },
+      {
+        "type": "drawPartRegion",
+        "moveY": -2,
+        "suffix": "-side-r",
+        "progress": "warmup"
+      },
+      {
+        "type": "drawPartRegion",
+        "moveY": -2,
+        "suffix": "-side-l",
+        "progress": "warmup"
       }
     ]
   },
