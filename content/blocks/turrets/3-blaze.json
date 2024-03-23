@@ -3,6 +3,7 @@
   "name": "Deteriorate",
   "description": "Shoots sparking nitrogen projectiles into your enemies.",
   "size": 3,
+  "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
     "basePrefix": "reinforced-",
