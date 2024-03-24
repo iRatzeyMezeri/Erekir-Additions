@@ -1,0 +1,38 @@
+{
+  "name": "Glider Fabricator",
+  "description": "Constructs Naval Glider-type Hide units",
+  "type": "UnitFactory",
+  "regionSuffix": "-dark",
+  "size": 3,
+  "configurable": false,
+  "category": "units",
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "f0-hide",
+      "requirements": [
+        "silicon/40",
+        "beryllium/40",
+        "sand/30"
+      ],
+      "time": 2400
+    },
+  ],
+  "research": {
+    "parent": "ship-fabricator",
+    "objectives": [
+      "ship-fabricator",
+      {
+        "type": "SectorComplete",
+        "preset": "presence",
+      }
+    ]
+  },
+  "requirements": [
+    "beryllium/200",
+    "graphite/150",
+    "silicon/150"
+  ]
+}
