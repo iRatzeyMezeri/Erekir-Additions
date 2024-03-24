@@ -7,4 +7,33 @@
   "drag": 0.3,
   "hitSize": 8,
   "health": 480,
+  "weapons": [
+    {
+      "name": "e1-sight-weapon",
+      "top": true,
+      "reload": 60,
+      "mirror": false,
+      "shootSound": "sap",
+      "shootY": -4
+      "bullet": {
+        "type": "basicBulletType",
+        "sprite": "bullet",
+        "damage": 30,
+        "pierceBuilding": false,
+        "pierce": false,
+        "trailColor": "8c84e4",
+        "trailLength": 12,
+        "trailWidth": 2,
+        "speed": 3,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 3,
+        "height": 3,
+        "lifetime": 40,
+        "lightColor": "cac4f5",
+        "colorFrom": "cac4f5",
+        "colorTo": "8c84e4",
+      }
+    }
+  ]
 }
