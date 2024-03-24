@@ -9,7 +9,6 @@
   "flying": false,
   "health": 540,
   "circleTarget": false,
-  "faceTarget": false,
   "weapons": [
     {
       "name": "f1-hide-weapon",
