@@ -11,7 +11,7 @@
   },
   "plans": [
     {
-      "unit": "f0-hide",
+      "unit": "f1-hide",
       "requirements": [
         "silicon/40",
         "beryllium/40",
