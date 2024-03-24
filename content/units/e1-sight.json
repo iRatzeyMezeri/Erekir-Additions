@@ -14,7 +14,6 @@
       "reload": 60,
       "mirror": false,
       "shootSound": "sap",
-      "shootY": -4
       "bullet": {
         "type": "basicBulletType",
         "sprite": "bullet",
