@@ -34,7 +34,7 @@
         "progress": "warmup",
         "heatProgress": "warmup",
         "heatColor": "f5ea9eaa",
-        "moveY": 1,
+        "moveY": -1,
       },
       {
         "type": "RegionPart",
