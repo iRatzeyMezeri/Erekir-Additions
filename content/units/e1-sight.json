@@ -1,0 +1,10 @@
+{
+  "name": "Sight",
+  "description": "A small flying offense unit",
+  "template": "ErekirUnitType",
+  "flying": true,
+  "speed": 2.2,
+  "drag": 0.3,
+  "hitSize": 8,
+  "health": 480,
+}
