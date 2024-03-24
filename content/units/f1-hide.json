@@ -18,13 +18,12 @@
       "inaccuracy": 20,
       "mirror": false,
       "shootSound": "spark",
-      "shoot": {
-        "shots": 3,
-      },
       "bullet": {
         "type": "LightningBulletType",
         "lifetime": 40,
         "damage": 8,
+        "lightningColor": "ddefcc",
+        "lightnings": 4,
         "collidesAir": true,
         "lightningLength": 24,
         "lightningLengthRand": 24,
