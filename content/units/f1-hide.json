@@ -1,19 +1,20 @@
 {
   "name": "Mass",
-  "description": "A small Glider that fires electric arcs at enemies, cannot attack air units.",
+  "description": "A small Glider that fires electric arcs at enemies, cannot attack air units. Can only move above liquid surfaces.",
   "template": "ErekirUnitType",
-  "naval" true,
+  "naval": true,
   "hitSize": 8,
   "type": "naval",
   "speed": 1,
   "flying": false,
-  "health": 640,
+  "health": 540,
   "circleTarget": false,
   "weapons": [
     {
       "name": "f1-hide-weapon",
       "top": false,
       "reload": 40,
+      "targetAir": false,
       "inaccuracy": 20,
       "mirror": false,
       "shootSound": "spark",
@@ -23,10 +24,10 @@
       "bullet": {
         "type": "LightningBulletType",
         "lifetime": 40,
-        "damage": 10,
-        "width": 5,
-        "length": 24,
-        "lengthRand": 24,
+        "damage": 8,
+        "collidesAir": true,
+        "lightningLength": 24,
+        "lightningLengthRand": 24,
         "pierce": true,
         "pierceBuilding": true,
       }
