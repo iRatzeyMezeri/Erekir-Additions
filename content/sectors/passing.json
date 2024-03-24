@@ -1,0 +1,19 @@
+{
+  "localizedName": "Passing",
+  "type": "Sector",
+  "difficulty": 5,
+  "planet": "erekir",
+  "sector": 64,
+  "research": {
+    "parent": "presence",
+    "objectives": [
+      "1z0-drought",
+      "1-simple-combustion-generator",
+      "ship-fabricator"
+      {
+      "type": "SectorComplete",
+      "preset": "presence",
+      }
+    ]
+  }
+}
