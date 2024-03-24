@@ -9,6 +9,7 @@
   "flying": false,
   "health": 540,
   "circleTarget": false,
+  "faceTarget": false,
   "weapons": [
     {
       "name": "f1-hide-weapon",
@@ -18,12 +19,14 @@
       "inaccuracy": 20,
       "mirror": false,
       "shootSound": "spark",
+      "shoot": {
+        "shots": 4
+      },
       "bullet": {
         "type": "LightningBulletType",
         "lifetime": 40,
         "damage": 8,
         "lightningColor": "ddefcc",
-        "lightnings": 4,
         "collidesAir": true,
         "lightningLength": 24,
         "lightningLengthRand": 24,
