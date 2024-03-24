@@ -31,7 +31,7 @@
         "damage": 8,
         "lightningColor": "ddefcc",
         "collidesAir": true,
-        "lightningLength": 6,
+        "lightningLength": 12,
         "lightningLengthRand": 6,
         "pierce": true,
         "pierceBuilding": true,
