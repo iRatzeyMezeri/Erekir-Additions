@@ -1,6 +1,6 @@
 {
   "name": "Plane Fabricator",
-  "description": "Constructs Suppor Plane-type Magnet units",
+  "description": "Constructs Support Plane-type Magnet units",
   "type": "UnitFactory",
   "regionSuffix": "-dark",
   "size": 3,
