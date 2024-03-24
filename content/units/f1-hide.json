@@ -11,12 +11,15 @@
   "omniMovement": false,
   "faceTarget": true,
   "circleTarget": false,
+  "targetAir": false,
+  "immunities": [
+    "melting"
+  ],
   "weapons": [
     {
       "name": "f1-hide-weapon",
       "top": true,
       "reload": 40,
-      "targetAir": false,
       "y": 0,
       "x": 0,
       "inaccuracy": 20,
@@ -28,7 +31,7 @@
       "bullet": {
         "type": "LightningBulletType",
         "lifetime": 40,
-        "damage": 8,
+        "damage": 24,
         "lightningColor": "ddefcc",
         "collidesAir": true,
         "lightningLength": 12,
