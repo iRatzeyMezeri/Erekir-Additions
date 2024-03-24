@@ -1,0 +1,38 @@
+{
+  "name": "Jet Fabricator",
+  "description": "Constructs Offense Jet-type Sight units",
+  "type": "UnitFactory",
+  "regionSuffix": "-dark",
+  "size": 3,
+  "configurable": false,
+  "category": "units",
+  "consumes": {
+    "power": 2
+  },
+  "plans": [
+    {
+      "unit": "e1-sight",
+      "requirements": [
+        "silicon/60",
+        "graphite/60"
+      ],
+      "time": 1500
+    },
+  ],
+  "research": {
+    "parent": "ship-fabricator",
+    "objectives": [
+      "ship-fabricator",
+      {
+        "type": "OnSector",
+        "preset": "Peaks",
+      }
+    ]
+  },
+  "requirements": [
+    "beryllium/100",
+    "graphite/100",
+    "tungsten/150",
+    "silicon/150"
+  ]
+}
