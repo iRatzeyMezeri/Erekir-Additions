@@ -17,6 +17,7 @@
     {
       "name": "f1-hide-weapon",
       "top": true,
+      "rotate": true,
       "reload": 40,
       "y": 0,
       "x": 0,
