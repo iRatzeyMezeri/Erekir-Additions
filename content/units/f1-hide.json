@@ -8,11 +8,13 @@
   "speed": 1,
   "flying": false,
   "health": 540,
+  "omniMovement": false,
+  "faceTarget": true,
   "circleTarget": false,
   "weapons": [
     {
       "name": "f1-hide-weapon",
-      "top": false,
+      "top": true,
       "reload": 40,
       "targetAir": false,
       "y": 0,
