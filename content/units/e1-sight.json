@@ -13,6 +13,8 @@
       "top": true,
       "reload": 60,
       "mirror": false,
+      "x": 0,
+      "y": -4,
       "shootSound": "sap",
       "bullet": {
         "type": "basicBulletType",
