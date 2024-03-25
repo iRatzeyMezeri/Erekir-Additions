@@ -8,7 +8,7 @@
   "hitSize": 10,
   "health": 720,
   "research": "d0-plane-fabricator",
-  "requiresUnlock": false,
+  "researchCostMultiplier": 0,
   "itemCapacity": 10,
   "engineColor": "77debc",
   "abilities": [
