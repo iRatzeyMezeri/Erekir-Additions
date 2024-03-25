@@ -7,6 +7,7 @@
   "flying": false,
   "speed": 1.2,
   "hitSize": 10,
+  "researchCostMultiplier": 0,
   "health": 720,
   "research": "a0-walker-fabricator",
   "requiresUnlock": false,
