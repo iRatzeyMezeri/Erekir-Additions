@@ -7,7 +7,7 @@
   "hitSize": 11,
   "hovering": true,
   "research": "c0-hoverbord-fabricator",
-  "requiresUnlock": false,
+  "researchCostMultiplier": 0,
   "speed": 2,
   "accel": 0.1,
   "drag": 0.1,
