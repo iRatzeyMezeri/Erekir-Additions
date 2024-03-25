@@ -4,6 +4,7 @@
     "type": "GenericCrafter",
     "health": 980,
     "outputLiquid": {"liquid": "arkycite", "amount": 0.666667},
+    "squareSprite": false,
     "consumes": {
         "power": 3,
         "items": [
