@@ -8,6 +8,8 @@
   "speed": 1.2,
   "hitSize": 10,
   "health": 720,
+  "research": "a0-walker-fabricator",
+  "requiresUnlock": false,
   "weapons": [
     {
       "name": "a1-inch-shotgun",
