@@ -2,7 +2,8 @@
     "name": "Endofluid Processing Chamber",
     "description": "Processes Endofluid into Spectral Vapor, Oxynolline, and Arsenogen",
     "type": "GenericCrafter",
-    "health": 880
+    "health": 880,
+    "squareSprite": false,
     "consumes": {
         "power": 12,
         "liquids": [
