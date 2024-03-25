@@ -7,6 +7,8 @@
   "drag": 0.1,
   "hitSize": 10,
   "health": 720,
+  "research": "d0-plane-fabricator",
+  "requiresUnlock": false,
   "itemCapacity": 10,
   "engineColor": "77debc",
   "abilities": [
