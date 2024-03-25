@@ -39,7 +39,16 @@
     "craftTime": 120,
     "updateEffect": "pulverize",
     "category": "crafting",
-    "research": "silicon-arc-furnace",
+    "research": {
+        "parent": "silicon-arc-furnace",
+        "objectives": [
+            "silicon-arc-furnace",
+            {
+                "type": "OnSector",
+                "preset": "presence",
+            }
+        ]
+    },
     "requirements": [
       "graphite/80",
       "silicon/40",
