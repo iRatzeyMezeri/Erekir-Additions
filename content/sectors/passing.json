@@ -7,7 +7,6 @@
   "research": {
     "parent": "presence",
     "objectives": [
-      "1z0-drought",
       "1-simple-combustion-generator",
       "ship-fabricator"
       {
