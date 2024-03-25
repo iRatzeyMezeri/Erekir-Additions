@@ -89,7 +89,6 @@
   "health": 2460,
   "shoot": {
     "type": "shootBarrel"
-    "shots": 3,
     "shotDelay": 0,
     "barrels": [
       -8, -4, 0,
@@ -111,7 +110,7 @@
     "slag": {
       "type": "basicBulletType",
         "sprite": "bullet",
-        "damage": 180,
+        "damage": 240,
         "pierce": true,
         "pierceBuilding": false,
         "speed": 5,
