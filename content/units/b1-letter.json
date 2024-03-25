@@ -6,6 +6,8 @@
   "outlineColor": "2e2f34",
   "flying": false,
   "speed": 1.2,
+  "research": "b0-tripod-fabricator",
+  "requiresUnlock": false,
   "hitSize": 10,
   "health": 540,
   "weapons": [
