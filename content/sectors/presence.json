@@ -7,8 +7,6 @@
   "research": {
     "parent": "hallway",
     "objectives": [
-      "1-alight",
-      "1-graphite-decompressor",
       {
       "type": "SectorComplete",
       "preset": "hallway"
