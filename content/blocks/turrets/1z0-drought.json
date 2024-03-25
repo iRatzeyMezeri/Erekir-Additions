@@ -96,7 +96,7 @@
     "objectives": [
       "breach",
       {
-        "type": "OnSector",
+        "type": "SectorComplete",
         "preset": "presence",
       }
     ]
