@@ -8,7 +8,7 @@
   "hitSize": 8,
   "health": 480,
   "research": "e0-jet-fabricator",
-  "requiresUnlock": false,
+  "researchCostMultiplier": 0,
   "weapons": [
     {
       "name": "e1-sight-weapon",
