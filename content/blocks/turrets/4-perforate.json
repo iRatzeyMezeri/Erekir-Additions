@@ -111,7 +111,7 @@
     "slag": {
       "type": "basicBulletType",
         "sprite": "bullet",
-        "damage": 240,
+        "damage": 140,
         "pierce": true,
         "pierceBuilding": false,
         "speed": 5,
