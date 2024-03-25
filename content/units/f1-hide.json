@@ -10,7 +10,7 @@
   "health": 540,
   "faceTarget": false,
   "research": "f0-glider-fabricator",
-  "requiresUnlock": false,
+  "researchCostMultiplier": 0,
   "targetAir": false,
   "immunities": [
     "melting"
