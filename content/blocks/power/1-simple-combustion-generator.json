@@ -7,18 +7,22 @@
     "type": "DrawMulti",
     "drawers": [
       {
+        "type": "DrawRegion",
+        "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "alpha": 0.8,
+        "padding": 2,
+      },
+      {
         "type": "DrawDefault"
       },
       {
         "type": "DrawGlowRegion",
         "color": "fdb380"
       },
-      {
-        "type": "DrawLiquidRegion",
-        "drawLiquid": "water",
-        "suffix": "-water",
-        "alpha": 0.5
-      }
     ]
   },
   "health": 280,
@@ -26,7 +30,15 @@
   "hasPower": true,
   "hasLiquids": true,
   "powerProduction": 5,
-  "updateEffect": "pulverise",
+  "craftEffect": {
+    "type": "RadialEffect",
+    "effect": {
+      "type": "ParticleEffect",
+      "lengthOffset": 2,
+      "lifetime": 30,
+    }
+  },
+  "updateEffect": "none",
   "consumes": {
     "items": [
       "coal/1"
