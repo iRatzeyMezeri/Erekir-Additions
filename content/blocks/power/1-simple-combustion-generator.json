@@ -33,9 +33,16 @@
   "craftEffect": {
     "type": "RadialEffect",
     "effect": {
-      "type": "ParticleEffect",
-      "lengthOffset": 2,
-      "lifetime": 30,
+        "type": "ParticleEffect",
+        "region": "circle",
+        "colorFrom": "fdb38088",
+        "colorTo": "fdb38088",
+        "particles": 10
+        "sizeFrom": 2,
+        "sizeTo": 0,
+        "lifetime": 30,
+        "lengthOffset": 2,
+        "spin": 6,
     }
   },
   "updateEffect": "none",
