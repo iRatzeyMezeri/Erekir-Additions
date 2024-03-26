@@ -31,8 +31,6 @@
   "hasLiquids": true,
   "powerProduction": 5,
   "craftEffect": {
-    "type": "RadialEffect",
-    "effect": {
         "type": "ParticleEffect",
         "region": "circle",
         "colorFrom": "fdb38088",
@@ -40,10 +38,9 @@
         "particles": 10
         "sizeFrom": 2,
         "sizeTo": 0,
-        "lifetime": 30,
+        "lifetime": 60,
         "lengthOffset": 2,
         "spin": 6,
-    }
   },
   "updateEffect": "none",
   "consumes": {
