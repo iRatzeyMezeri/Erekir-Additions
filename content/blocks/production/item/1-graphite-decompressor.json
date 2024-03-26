@@ -37,7 +37,19 @@
     "hasItems": true,
     "itemCapacity": 30,
     "craftTime": 120,
-    "updateEffect": "pulverize",
+    "craftEffect": {
+        "type": "ParticleEffect",
+        "region": "circle",
+        "colorFrmom": "fdb38088",
+        "colorTo": "fdb38088",
+        "lightColor": "fdb38088",
+        "particles": 8
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "lifetime": 30,
+        "lengthOffset": 4,
+    },
+    "updateEffect": "none",
     "category": "crafting",
     "research": {
         "parent": "silicon-arc-furnace",
