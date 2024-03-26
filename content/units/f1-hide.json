@@ -20,7 +20,7 @@
       "name": "f1-hide-weapon",
       "top": true,
       "rotate": true,
-      "reload": 40,
+      "reload": 120,
       "y": 0,
       "x": 0,
       "inaccuracy": 20,
