@@ -22,12 +22,12 @@
       {
         "type": "DrawRegion",
         "suffix": "-top",
-        "layer": 200,
+        "layer": 102,
       },
       {
         "type": "DrawGlowRegion",
         "color": "fdb380",
-        "layer": 200,
+        "layer": 102,
       },
     ]
   },
@@ -36,10 +36,10 @@
   "hasPower": true,
   "hasLiquids": true,
   "powerProduction": 5,
-  "craftEffect": {
+  "generateEffect": {
     "type": "RadialEffect",
     "amount": 4,
-    "layer": 150,
+    "layer": 101,
     "effect": {
       "type": "MultiEffect",
       "effects": [
