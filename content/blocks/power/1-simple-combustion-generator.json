@@ -49,11 +49,11 @@
           "colorTo": "d1efff88",
           "particles": 10
           "sizeFrom": 1,
-          "sizeTo": 1,
-          "lifetime": 20,
+          "sizeTo": 0,
+          "lifetime": 30,
           "lengthOffset": 2,
           "cone": 10,
-          "rotationOffset": 45
+          "baseRotation": 45
         },
         {
           "region": "circle",
@@ -61,11 +61,11 @@
           "colorTo": "d1efff88",
           "particles": 10
           "sizeFrom": 1,
-          "sizeTo": 1,
-          "lifetime": 20,
+          "sizeTo": 0,
+          "lifetime": 30,
           "lengthOffset": 2,
           "cone": 10,
-          "rotationOffset": 135
+          "baseRotation": 135
         },
         {
           "region": "circle",
@@ -73,11 +73,11 @@
           "colorTo": "d1efff88",
           "particles": 10
           "sizeFrom": 1,
-          "sizeTo": 1,
-          "lifetime": 20,
+          "sizeTo": 0,
+          "lifetime": 30,
           "lengthOffset": 2,
           "cone": 10,
-          "rotationOffset": -135
+          "baseRotation": -135
         },
         {
           "region": "circle",
@@ -85,11 +85,11 @@
           "colorTo": "d1efff88",
           "particles": 10
           "sizeFrom": 1,
-          "sizeTo": 1,
+          "sizeTo": 0,
           "lifetime": 20,
           "lengthOffset": 2,
           "cone": 10,
-          "rotationOffset": -45
+          "baseRotation": -45
         }
       ]
     }
