@@ -20,8 +20,14 @@
         "type": "DrawDefault"
       },
       {
+        "type": "DrawRegion",
+        "suffix": "-top",
+        "layer": 200,
+      },
+      {
         "type": "DrawGlowRegion",
-        "color": "fdb380"
+        "color": "fdb380",
+        "layer": 200,
       },
     ]
   },
@@ -31,16 +37,62 @@
   "hasLiquids": true,
   "powerProduction": 5,
   "craftEffect": {
-        "type": "ParticleEffect",
-        "region": "circle",
-        "colorFrom": "fdb38088",
-        "colorTo": "fdb38088",
-        "particles": 10
-        "sizeFrom": 2,
-        "sizeTo": 0,
-        "lifetime": 60,
-        "lengthOffset": 2,
-        "spin": 6,
+    "type": "RadialEffect",
+    "amount": 4,
+    "layer": 150,
+    "effect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "region": "circle",
+          "colorFrom": "d1efff88",
+          "colorTo": "d1efff88",
+          "particles": 10
+          "sizeFrom": 1,
+          "sizeTo": 1,
+          "lifetime": 20,
+          "lengthOffset": 2,
+          "cone": 10,
+          "rotationOffset": 45
+        },
+        {
+          "region": "circle",
+          "colorFrom": "d1efff88",
+          "colorTo": "d1efff88",
+          "particles": 10
+          "sizeFrom": 1,
+          "sizeTo": 1,
+          "lifetime": 20,
+          "lengthOffset": 2,
+          "cone": 10,
+          "rotationOffset": 135
+        },
+        {
+          "region": "circle",
+          "colorFrom": "d1efff88",
+          "colorTo": "d1efff88",
+          "particles": 10
+          "sizeFrom": 1,
+          "sizeTo": 1,
+          "lifetime": 20,
+          "lengthOffset": 2,
+          "cone": 10,
+          "rotationOffset": -135
+        },
+        {
+          "region": "circle",
+          "colorFrom": "d1efff88",
+          "colorTo": "d1efff88",
+          "particles": 10
+          "sizeFrom": 1,
+          "sizeTo": 1,
+          "lifetime": 20,
+          "lengthOffset": 2,
+          "cone": 10,
+          "rotationOffset": -45
+        }
+      ]
+    }
   },
   "updateEffect": "none",
   "consumes": {
