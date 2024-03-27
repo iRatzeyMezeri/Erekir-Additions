@@ -9,25 +9,21 @@
       {
         "type": "DrawRegion",
         "suffix": "-bottom",
+        "layer": 50,
       },
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "water",
         "alpha": 0.8,
         "padding": 2,
+        "layer": 70,
       },
       {
         "type": "DrawDefault"
       },
       {
-        "type": "DrawRegion",
-        "suffix": "-top",
-        "layer": 102,
-      },
-      {
         "type": "DrawGlowRegion",
         "color": "fdb380",
-        "layer": 102,
       },
     ]
   },
@@ -36,64 +32,7 @@
   "hasPower": true,
   "hasLiquids": true,
   "powerProduction": 5,
-  "generateEffect": {
-    "type": "RadialEffect",
-    "amount": 4,
-    "layer": 101,
-    "effect": {
-      "type": "MultiEffect",
-      "effects": [
-        {
-          "region": "circle",
-          "colorFrom": "d1efff88",
-          "colorTo": "d1efff88",
-          "particles": 10
-          "sizeFrom": 1,
-          "sizeTo": 0,
-          "lifetime": 30,
-          "lengthOffset": 2,
-          "cone": 10,
-          "baseRotation": 45
-        },
-        {
-          "region": "circle",
-          "colorFrom": "d1efff88",
-          "colorTo": "d1efff88",
-          "particles": 10
-          "sizeFrom": 1,
-          "sizeTo": 0,
-          "lifetime": 30,
-          "lengthOffset": 2,
-          "cone": 10,
-          "baseRotation": 135
-        },
-        {
-          "region": "circle",
-          "colorFrom": "d1efff88",
-          "colorTo": "d1efff88",
-          "particles": 10
-          "sizeFrom": 1,
-          "sizeTo": 0,
-          "lifetime": 30,
-          "lengthOffset": 2,
-          "cone": 10,
-          "baseRotation": -135
-        },
-        {
-          "region": "circle",
-          "colorFrom": "d1efff88",
-          "colorTo": "d1efff88",
-          "particles": 10
-          "sizeFrom": 1,
-          "sizeTo": 0,
-          "lifetime": 20,
-          "lengthOffset": 2,
-          "cone": 10,
-          "baseRotation": -45
-        }
-      ]
-    }
-  },
+  "generateEffect": "titanSmoke",
   "updateEffect": "none",
   "consumes": {
     "items": [
