@@ -83,7 +83,7 @@
               "lifetime": 60,
               "lengthOffset": 4,
               "offsetX": 4,
-              "offsetY": -80
+              "offsetY": 12,
             },
             {
               "type": "ParticleEffect",
