@@ -82,7 +82,7 @@
               "sizeTo": 2,
               "lifetime": 60,
               "lengthOffset": 4,
-              "offsetX": -8,
+              "offsetX": 4,
               "offsetY": -12
             },
             {
@@ -97,7 +97,37 @@
               "sizeTo": 2,
               "lifetime": 60,
               "lengthOffset": 4,
-              "offsetX": -8,
+              "offsetX": 4,
+              "offsetY": 12
+            },
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorFrom": "fdb38088",
+              "colorTo": "bc545288",
+              "cone": 40,
+              "baseRotation": 130,
+              "particles": 3
+              "sizeFrom": 2,
+              "sizeTo": 1,
+              "lifetime": 60,
+              "lengthOffset": 4,
+              "offsetX": -6,
+              "offsetY": -12
+            },
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorFrom": "fdb38088",
+              "colorTo": "bc545288",
+              "cone": 40,
+              "baseRotation": -130,
+              "particles": 3
+              "sizeFrom": 2,
+              "sizeTo": 1,
+              "lifetime": 60,
+              "lengthOffset": 4,
+              "offsetX": -6,
               "offsetY": 12
             }
           ]
