@@ -66,8 +66,8 @@
           "effects": [
             {
               "type": "WaveEffect",
-              "lifetime": 40,
-              "sizeFrom": 0,
+              "lifetime": 60,
+              "sizeFrom": 24,
               "sizeTo": 24,
               "strokeFrom": 4,
               "strokeTo": 0,
@@ -75,19 +75,50 @@
               "colorFrom": "e3a76a",
               "colorTo": "e3a76a",
             },
-        "despawnEffect": {
-          "type": "WaveEffect",
-          "lifetime": 40,
-          "sizeFrom": 0,
-          "sizeTo": 24,
-          "strokeFrom": 4,
-          "strokeTo": 0,
-          "lightColor": "ffecd1",
-          "colorFrom": "e3a76a",
-          "colorTo": "e3a76a",
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorTo": "e3a76a88",
+              "lightColor": "e3a76a88",
+              "colorFrom": "e3a76a88",
+              "particles": 8
+              "sizeFrom": 3,
+              "sizeTo": 0,
+              "lifetime": 90,
+              "lengthOffset": 4,
+            },
+          ]
         },
-      }
-    },
+        "despawnEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "lifetime": 60,
+              "sizeFrom": 24,
+              "sizeTo": 24,
+              "strokeFrom": 4,
+              "strokeTo": 0,
+              "lightColor": "ffecd1",
+              "colorFrom": "e3a76a",
+              "colorTo": "e3a76a",
+            },
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorTo": "e3a76a88",
+              "lightColor": "e3a76a88",
+              "colorFrom": "e3a76a88",
+              "particles": 8
+              "sizeFrom": 3,
+              "sizeTo": 0,
+              "lifetime": 90,
+              "lengthOffset": 4,
+            },
+        ]
+      },
+    }
+  },
   "requirements": [
     "beryllium/125",
     "silicon/200",
