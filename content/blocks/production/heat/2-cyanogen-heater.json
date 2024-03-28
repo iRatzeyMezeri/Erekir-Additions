@@ -12,7 +12,7 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "cyanogen",
-        "alpha": 0.8,
+        "alpha": 1,
       },
       {
         "type": "DrawDefault",
