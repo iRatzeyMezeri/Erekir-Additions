@@ -81,11 +81,11 @@
               "colorTo": "e3a76a88",
               "lightColor": "e3a76a88",
               "colorFrom": "e3a76a88",
-              "particles": 8
-              "sizeFrom": 3,
+              "particles": 12,
+              "sizeFrom": 12,
               "sizeTo": 0,
-              "lifetime": 90,
-              "lengthOffset": 4,
+              "lifetime": 120,
+              "lengthOffset": 16,
             },
           ]
         },
@@ -109,11 +109,11 @@
               "colorTo": "e3a76a88",
               "lightColor": "e3a76a88",
               "colorFrom": "e3a76a88",
-              "particles": 8
-              "sizeFrom": 3,
+              "particles": 12,
+              "sizeFrom": 12,
               "sizeTo": 0,
-              "lifetime": 90,
-              "lengthOffset": 4,
+              "lifetime": 120,
+              "lengthOffset": 16,
             },
         ]
       },
