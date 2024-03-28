@@ -9,14 +9,12 @@
       {
         "type": "DrawRegion",
         "suffix": "-bottom",
-        "layer": 50,
       },
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "water",
         "alpha": 0.8,
         "padding": 2,
-        "layer": 70,
       },
       {
         "type": "DrawParticles",
