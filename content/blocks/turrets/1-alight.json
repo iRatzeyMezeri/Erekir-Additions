@@ -66,7 +66,42 @@
   "ammoTypes": {
     "coal": {
       "type": "basicBulletType",
-        "sprite": "bullet",
+        "sprite": "bullet", 
+        "shootEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorFrom": "ea887888",
+              "colorTo": "bc545288",
+              "cone": 40,
+              "baseRotation": 130,
+              "particles": 4
+              "sizeFrom": 2,
+              "sizeTo": 2,
+              "lifetime": 60,
+              "lengthOffset": 3,
+              "offsetX": -6,
+              "offsetY": -12
+            },
+            {
+              "type": "ParticleEffect",
+              "region": "circle",
+              "colorFrom": "ea887888",
+              "colorTo": "bc545288",
+              "cone": 40,
+              "baseRotation": -130,
+              "particles": 4
+              "sizeFrom": 2,
+              "sizeTo": 2,
+              "lifetime": 60,
+              "lengthOffset": 3,
+              "offsetX": 6,
+              "offsetY": -12
+            }
+          ]
+        },
         "damage": 30,
         "weaveScl": 1,
         "weaveMag": 1,
