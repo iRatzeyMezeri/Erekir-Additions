@@ -23,8 +23,18 @@
         "type": "DrawGlowRegion",
         "color": "fdb380",
       },
+    ]
+  },
+  "health": 280,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "powerProduction": 5,
+  "generateEffect": {
+    "type": "MultiEffect",
+    "effects": [
       {
-        "type": "DrawParticles",
+        "type": "ParticleEffect",
         "colorFrom": "d1efff88",
         "colorTo": "d1efff88",
         "sizeFrom": 3,
@@ -35,7 +45,7 @@
         "cone": 10,
       },
       {
-        "type": "DrawParticles",
+        "type": "ParticleEffect",
         "colorFrom": "d1efff88",
         "colorTo": "d1efff88",
         "sizeFrom": 3,
@@ -46,7 +56,7 @@
         "cone": 10,
       },
       {
-        "type": "DrawParticles",
+        "type": "ParticleEffect",
         "colorFrom": "d1efff88",
         "colorTo": "d1efff88",
         "sizeFrom": 3,
@@ -57,7 +67,7 @@
         "cone": 10,
       },
       {
-        "type": "DrawParticles",
+        "type": "ParticleEffect",
         "colorFrom": "d1efff88",
         "colorTo": "d1efff88",
         "sizeFrom": 3,
@@ -66,15 +76,9 @@
         "lengthOffset": 2,
         "rotationOffset": 135,
         "cone": 10,
-      },
+      }
     ]
   },
-  "health": 280,
-  "size": 3,
-  "hasPower": true,
-  "hasLiquids": true,
-  "powerProduction": 5,
-  "generateEffect": "none",
   "updateEffect": "none",
   "consumes": {
     "items": [
