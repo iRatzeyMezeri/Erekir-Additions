@@ -8,7 +8,7 @@
     "oxide/5",
   ],
   "size": 2,
-  "heatOutput": 2,
+  "heatOutput": 4,
   "regionRotated1": 1,
   "ambientSound": "hum",
   "itemCapacity": "10",
