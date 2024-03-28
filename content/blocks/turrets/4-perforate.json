@@ -136,11 +136,5 @@
     "beryllium/150",
   ],
   "category": "turret",
-  "research": {
-    "parent": "1z0-drought",
-    "objectives": [
-      "1z0-drought",
-      "slag",
-    ]
-  }
+  "research": "1z0-drought"
 }
