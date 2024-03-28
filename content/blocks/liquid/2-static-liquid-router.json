@@ -4,7 +4,7 @@
   "name": "Static Liquid Router",
   "descriptions": "Distributes liquids equally to the sides. More durable than a normal liquid router",
   "health": 240,
-  "research": "static-conduit",
+  "research": "1-static-conduit",
   "category": "liquid",
   "squareSprite": false,
   "requirements": [
