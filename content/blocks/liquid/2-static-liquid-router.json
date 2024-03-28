@@ -6,6 +6,7 @@
   "health": 240,
   "research": "1-static-conduit",
   "underBullets": true,
+  "solid": false,
   "category": "liquid",
   "squareSprite": false,
   "requirements": [
