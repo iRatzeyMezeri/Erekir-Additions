@@ -17,12 +17,19 @@
         "padding": 2,
       },
       {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "fdb380",
+      },
+      {
         "type": "DrawParticles",
         "colorFrom": "d1efff88",
         "colorTo": "d1efff88",
         "sizeFrom": 3,
         "sizeTo": 2,
-        "interp": "exp10",
+        "interp": "reverse",
         "lengthOffset": 2,
         "rotationOffset": 45,
         "cone": 10,
@@ -33,7 +40,7 @@
         "colorTo": "d1efff88",
         "sizeFrom": 3,
         "sizeTo": 2,
-        "interp": "exp10",
+        "interp": "reverse",
         "lengthOffset": 2,
         "rotationOffset": -45,
         "cone": 10,
@@ -44,7 +51,7 @@
         "colorTo": "d1efff88",
         "sizeFrom": 3,
         "sizeTo": 2,
-        "interp": "exp10",
+        "interp": "reverse",
         "lengthOffset": 2,
         "rotationOffset": -135,
         "cone": 10,
@@ -55,17 +62,10 @@
         "colorTo": "d1efff88",
         "sizeFrom": 3,
         "sizeTo": 2,
-        "interp": "exp10",
+        "interp": "reverse",
         "lengthOffset": 2,
         "rotationOffset": 135,
         "cone": 10,
-      },
-      {
-        "type": "DrawDefault"
-      },
-      {
-        "type": "DrawGlowRegion",
-        "color": "fdb380",
       },
     ]
   },
