@@ -76,13 +76,13 @@
               "colorFrom": "ea887888",
               "colorTo": "bc545288",
               "cone": 40,
-              "baseRotation": 130,
+              "baseRotation": 40,
               "particles": 4
               "sizeFrom": 2,
               "sizeTo": 2,
               "lifetime": 60,
               "lengthOffset": 3,
-              "offsetX": -6,
+              "offsetX": -8,
               "offsetY": -12
             },
             {
@@ -91,14 +91,14 @@
               "colorFrom": "ea887888",
               "colorTo": "bc545288",
               "cone": 40,
-              "baseRotation": -130,
+              "baseRotation": -40,
               "particles": 4
               "sizeFrom": 2,
               "sizeTo": 2,
               "lifetime": 60,
               "lengthOffset": 3,
-              "offsetX": 6,
-              "offsetY": -12
+              "offsetX": -8,
+              "offsetY": 12
             }
           ]
         },
