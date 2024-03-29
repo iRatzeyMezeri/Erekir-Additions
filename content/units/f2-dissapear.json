@@ -37,7 +37,7 @@
         "backColor": "a4c08a",
         "lightColor": "ddefcc",
         "trailColor": "a4c08a",
-        "trailWidth": 4,
+        "trailWidth": 2,
         "trailLength": 72,
         "pierce": false,
         "pierceBuilding": true,
