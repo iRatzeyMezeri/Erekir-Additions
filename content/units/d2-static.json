@@ -1,6 +1,6 @@
 {
   "name": "Static",
-  "description": "A larger flying support unit that cannot attack, but can mine and help the player in building",
+  "description": "A larger flying support unit that cannot attack, but can help the player in building",
   "template": "ErekirUnitType",
   "flying": true,
   "speed": 2.4,
@@ -10,13 +10,20 @@
   "health": 1440,
   "researchCostMultiplier": 0,
   "itemCapacity": 30,
-  "mineSpeed": 0.5,
-  "mineTier": 3,
-  "mineWalls": true,
-  "mineFloor": false,
-  "mineHardnessScaling": false,
-  "buildSpeed": 0.2,
+  "buildSpeed": 0.3,
   "lowAltitude": true,
+  "engines": [
+    {
+      "x": 7
+      "y": -6
+      "radius": 3
+    },
+    {
+      "x": -7
+      "y": -6
+      "radius": 3
+    },
+  ],
   "engineColor": "77debc",
   "abilities": [
     {
