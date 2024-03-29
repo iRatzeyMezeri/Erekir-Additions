@@ -32,7 +32,7 @@
       "f0-glider-fabricator",
       {
         "type": "SectorComplete",
-        "preset": "Basin"
+        "preset": "basin"
       }
     ]
   },
