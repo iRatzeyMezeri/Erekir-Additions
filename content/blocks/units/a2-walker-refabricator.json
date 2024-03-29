@@ -1,0 +1,45 @@
+{
+  "name": "Walker Refabricator",
+  "description": "Upgrades walker-type ''Inch'' units into heavier ''Foot'' units",
+  "type": "Reconstructor",
+  "regionSuffix": "-dark",
+  "size": 3,
+  "configurable": false,
+  "category": "units",
+  "consumes": {
+    "power": 2
+    "liquids": {
+      "liquids": [
+        "hydrogen/0.05"
+      ]
+    },
+    "items": {
+      "items": [
+        "tungsten/20",
+        "beryllium/20",
+        "silicon/40"
+      ],
+    },
+  },
+  "upgrades": [
+    [
+      "a1-inch",
+      "a2-foot"
+    ]
+  ],
+  "research": {
+    "parent": "a0-walker-fabricator",
+    "objectives": [
+      "a0-walker-fabricator",
+      {
+        "type": "SectorComplete",
+        "preset": "flatlands"
+      }
+    ]
+  },
+  "requirements": [
+    "beryllium/180",
+    "silicon/240",
+    "tungsten/120"
+  ]
+}
