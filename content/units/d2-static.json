@@ -11,7 +11,7 @@
   "researchCostMultiplier": 0,
   "itemCapacity": 30,
   "buildSpeed": 0.3,
-  "range": 120,
+  "buildRange": 120,
   "lowAltitude": true,
   "engines": [
     {
