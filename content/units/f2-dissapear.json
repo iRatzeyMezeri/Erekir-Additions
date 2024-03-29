@@ -1,0 +1,57 @@
+{
+  "name": "Dissapear",
+  "description": "A larger Glider armed with a laser rifle that shatters into several electric bolts on hit. Can only move above liquid surfaces.",
+  "template": "ErekirUnitType",
+  "naval": true,
+  "hitSize": 14,
+  "type": "naval",
+  "speed": 0.8,
+  "flying": false,
+  "health": 1360,
+  "faceTarget": false,
+  "researchCostMultiplier": 0,
+  "targetAir": true,
+  "immunities": [
+    "melting"
+  ],
+  "weapons": [
+    {
+      "name": "f2-dissapear-rifle",
+      "top": true,
+      "rotate": true,
+      "reload": 150,
+      "y": 0,
+      "x": 0,
+      "inaccuracy": 0,
+      "mirror": false,
+      "shootSound": "bolt",
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "bullet",
+        "width": 4,
+        "length": 7,
+        "lifetime": 120,
+        "damage": 64,
+        "colorFrom": "a4c08a",
+        "colorTo": "a4c08a",
+        "LightColor": "ddefcc",
+        "pierce": false,
+        "pierceBuilding": true,
+        "fragBullets": 3,
+        "fragBullet": {
+          "type": "ShrapnelBulletType",
+          "serrations": 0,
+          "width": 3,
+          "length": 48,
+          "lifetime": 30,
+          "damage": 16,
+          "colorFrom": "a4c08a",
+          "colorTo": "a4c08a",
+          "LightColor": "ddefcc",
+          "pierce": true,
+          "pierceBuilding": false,
+        }
+      }
+    }
+  ]
+}
