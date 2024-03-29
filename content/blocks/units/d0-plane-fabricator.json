@@ -23,7 +23,10 @@
     "parent": "ship-fabricator",
     "objectives": [
       "ship-fabricator",
-      "mech-refabricator"
+      {
+        "type": "SectorComplete",
+        "preset": "flatlands"
+      }
     ]
   },
   "requirements": [
