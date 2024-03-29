@@ -3,6 +3,7 @@
   "description": "Upgrades walker-type ''Inch'' units into heavier ''Foot'' units",
   "type": "Reconstructor",
   "regionSuffix": "-dark",
+  "constructTime": 1800,
   "size": 3,
   "configurable": false,
   "category": "units",
