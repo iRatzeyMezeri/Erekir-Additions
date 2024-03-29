@@ -22,7 +22,16 @@
     ],
     "power": 2,
   },
-  "research": "beryllium-wall",
+  "research": {
+    "parent": "beryllium-wall",
+    "objectives": [
+      "beryllium-wall",
+      {
+        "type": "OnSector",
+        "preset": "flatlands"
+      }
+    ]
+  },
   "category": "effect",
   "craftTime": "150",
 }
