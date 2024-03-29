@@ -1,0 +1,16 @@
+{
+  "localizedName": "Flatlands",
+  "type": "Sector",
+  "difficulty": 5,
+  "planet": "erekir",
+  "sector": 44,
+  "research": {
+    "parent": "passing",
+    "objectives": [
+      {
+      "type": "SectorComplete",
+      "preset": "passing"
+      }
+    ]
+  }
+}
