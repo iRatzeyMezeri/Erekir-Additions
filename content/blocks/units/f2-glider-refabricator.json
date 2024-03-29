@@ -1,0 +1,45 @@
+{
+  "name": "Glider Refabricator",
+  "description": "Upgrades glider-type ''Hide'' units into heavier ''Dissapear'' units",
+  "type": "Reconstructor",
+  "regionSuffix": "-dark",
+  "size": 3,
+  "configurable": false,
+  "category": "units",
+  "consumes": {
+    "power": 2
+    "liquids": {
+      "liquids": [
+        "hydrogen/0.05"
+      ]
+    },
+    "items": {
+      "items": [
+        "tungsten/40",
+        "silicon/40"
+      ],
+    },
+  },
+  "upgrades": [
+    [
+      "f1-hide",
+      "f2-dissapear"
+    ]
+  ],
+  "research": {
+    "parent": "f0-glider-fabricator",
+    "objectives": [
+      "f0-glider-fabricator",
+      {
+        "type": "SectorComplete",
+        "preset": "Basin"
+      }
+    ]
+  },
+  "requirements": [
+    "beryllium/180",
+    "graphite/120",
+    "silicon/180",
+    "tungsten/120"
+  ]
+}
