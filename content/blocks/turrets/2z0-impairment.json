@@ -58,7 +58,7 @@
     "silicon": {
       "type": "basicBulletType",
         "sprite": "large-bomb-back",
-        "damage": 30,
+        "damage": 20,
         "pierce": false,
         "pierceBuilding": false,
         "speed": 5,
