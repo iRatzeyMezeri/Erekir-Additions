@@ -19,7 +19,16 @@
       "time": 2700
     },
   ],
-  "research": "tank-fabricator",
+  "research": {
+    "parent": "tank-fabricator",
+    "objectives": [
+      "tank-fabricator",
+      {
+        "type": "OnSector",
+        "preset": "flatlands"
+      }
+    ]
+  },
   "requirements": [
     "beryllium/260",
     "silicon/260",
