@@ -3,7 +3,7 @@
   "description": "A larger flying support unit that cannot attack, but can mine and help the player in building",
   "template": "ErekirUnitType",
   "flying": true,
-  "defaultCommand": "rebuildCommand",
+  "defaultCommand": "UnitCommand.rebuildCommand",
   "speed": 2.4,
   "drag": 0.2,
   "accel": 0.2,
