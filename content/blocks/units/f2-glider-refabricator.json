@@ -3,6 +3,7 @@
   "description": "Upgrades glider-type ''Hide'' units into heavier ''Dissapear'' units",
   "type": "Reconstructor",
   "regionSuffix": "-dark",
+  "constructTime": 1680,
   "size": 3,
   "configurable": false,
   "category": "units",
