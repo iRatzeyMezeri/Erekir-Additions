@@ -1,0 +1,27 @@
+{
+  "name": "Plating Projector",
+  "description": "Uses Power and Silicon to generate a small force field, can be cooled with water",
+  "type": "ForceProjector",
+  "requirements": [
+    "silicon/160",
+    "tungsten/160",
+    "graphite/120",
+    "beryllium/120"
+  ],
+  "size": 3,
+  "itemCapacity": "10",
+  "health": 540,
+  "consumeCoolant": true,
+  "coolantConsumption": 0.25,
+  "shieldHealth": 2400,
+  "sides": 8,
+  "consumes": {
+    "items": [
+      "silicon/1"
+    ],
+    "power": 2,
+  },
+  "research": "beryllium-wall",
+  "category": "effect",
+  "craftTime": "150",
+}
