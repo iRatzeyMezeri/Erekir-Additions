@@ -1,0 +1,46 @@
+{
+  "name": "Plane Refabricator",
+  "description": "Upgrades plane-type ''Hide'' units into heavier ''Dissapear'' units",
+  "type": "Reconstructor",
+  "regionSuffix": "-dark",
+  "size": 3,
+  "configurable": false,
+  "category": "units",
+  "consumes": {
+    "power": 2
+    "liquids": {
+      "liquids": [
+        "hydrogen/0.05"
+      ]
+    },
+    "items": {
+      "items": [
+        "tungsten/20",
+        "graphite/40",
+        "silicon/20"
+      ],
+    },
+  },
+  "upgrades": [
+    [
+      "d1-magnet",
+      "d2-static"
+    ]
+  ],
+  "research": {
+    "parent": "d0-plane-fabricator",
+    "objectives": [
+      "d0-plane-fabricator",
+      {
+        "type": "SectorComplete",
+        "preset": "Basin"
+      }
+    ]
+  },
+  "requirements": [
+    "beryllium/120",
+    "graphite/120",
+    "silicon/180",
+    "tungsten/120"
+  ]
+}
