@@ -14,14 +14,15 @@
   "lowAltitude": true,
   "engines": [
     {
-      "x": 7
+      "x": 4.5
       "y": -6
       "radius": 3
     },
     {
-      "x": -7
+      "x": -4.5
       "y": -6
       "radius": 3
+      "rotation": 180,
     },
   ],
   "engineColor": "77debc",
