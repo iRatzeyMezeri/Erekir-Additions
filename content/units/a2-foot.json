@@ -42,8 +42,9 @@
         "colorTo": "f7c749",
         "fragBullets": 6,
         "fragSpread": 15,
-        "fragVelocityMin": 4,
-        "fragVelocityMax": 4,
+        "fragRandomSpread": 0,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
         "fragBullet": {
           "type": "basicBulletType",
           "sprite": "circle",
