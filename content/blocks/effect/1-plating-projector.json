@@ -15,6 +15,7 @@
   "coolantConsumption": 0.25,
   "shieldHealth": 2400,
   "sides": 8,
+  "radius": 420,
   "consumes": {
     "items": [
       "silicon/1"
