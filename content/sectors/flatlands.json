@@ -2,6 +2,7 @@
   "localizedName": "Flatlands",
   "type": "Sector",
   "difficulty": 5,
+  "description": "The Malis have set up a Unit Production base in those flatlands, Take Control of the Tungsten Veins in the area and use the new [yellow] Walker [white] Units to defeat the enemy",
   "planet": "erekir",
   "sector": 44,
   "research": {
