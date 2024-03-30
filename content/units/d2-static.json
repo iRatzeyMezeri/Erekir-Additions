@@ -9,6 +9,8 @@
   "hitSize": 14,
   "health": 1440,
   "researchCostMultiplier": 0,
+  "research": "d2-plane-refabricator",
+  "requiresUnlock": false,
   "itemCapacity": 30,
   "buildSpeed": 0.3,
   "buildRange": 120,
