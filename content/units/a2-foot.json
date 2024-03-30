@@ -23,7 +23,7 @@
       "bullet": {
         "type": "basicBulletType",
         "sprite": "circle",
-        "damage": 50,
+        "damage": 45,
         "pierceBuilding": true,
         "pierce": false,
         "trailColor": "f7c749",
@@ -48,7 +48,7 @@
         "fragBullet": {
           "type": "basicBulletType",
           "sprite": "circle",
-          "damage": 15,
+          "damage": 12,
           "pierce": false,
           "lightColor": "f1ffa9",
           "colorFrom": "f1ffa9",
