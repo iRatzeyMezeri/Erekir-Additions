@@ -10,6 +10,8 @@
   "health": 1360,
   "faceTarget": false,
   "researchCostMultiplier": 0,
+  "research": "f2-glider-refabricator",
+  "requiresUnlock": false,
   "targetAir": true,
   "immunities": [
     "melting"
