@@ -1,5 +1,5 @@
 {
-  "name": "Letter",
+  "name": "Way",
   "description": "A simple hunter unit armed with a small missile launcher",
   "template": "ErekirUnitType",
   "type": "legs",
