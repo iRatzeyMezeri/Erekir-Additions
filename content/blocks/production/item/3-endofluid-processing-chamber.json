@@ -1,5 +1,5 @@
 {
-    "name": "Endofluid Processing Chamber",
+    "name": "Replacer",
     "description": "Processes Endofluid into Spectral Vapor, Oxynolline, and Arsenogen",
     "type": "GenericCrafter",
     "health": 880,
