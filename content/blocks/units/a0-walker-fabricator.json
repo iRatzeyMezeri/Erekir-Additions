@@ -1,5 +1,5 @@
 {
-  "name": "Walker Fabricator",
+  "name": "Dagger Fabricator",
   "description": "Constructs Walker-type Inch units",
   "type": "UnitFactory",
   "regionSuffix": "-dark",
