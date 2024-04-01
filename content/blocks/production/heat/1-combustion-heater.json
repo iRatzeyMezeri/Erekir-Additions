@@ -1,5 +1,5 @@
 {
-  "name": "Combustion Heater",
+  "name": "Just so coal has a use",
   "description": "Combusts coal to gain heat",
   "type": "HeatProducer",
   "requirements": [
