@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "name": "Drought",
+  "name": "Titan from Wish",
   "description": "Fires a slow projectile into your ground enemies. Deals Slpash damage on impact",
   "size": 3,
   "targetAir": false,
