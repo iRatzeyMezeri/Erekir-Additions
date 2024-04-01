@@ -1,6 +1,6 @@
 {
   "type": "LiquidTurret",
-  "name": "Shimmer",
+  "name": "Disperse from Wish",
   "description": "A fast-shooting anti-air turret that uses hydrogen as ammo.",
   "size": 3,
   "squareSprite": false,
