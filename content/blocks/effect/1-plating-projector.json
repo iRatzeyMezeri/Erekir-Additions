@@ -13,9 +13,9 @@
   "health": 540,
   "consumeCoolant": true,
   "coolantConsumption": 0.25,
-  "shieldHealth": 2400,
+  "shieldHealth": 4800,
   "sides": 8,
-  "radius": 48,
+  "radius": 72,
   "consumes": {
     "items": [
       "silicon/1"
@@ -33,5 +33,5 @@
     ]
   },
   "category": "effect",
-  "craftTime": "150",
+  "craftTime": "180",
 }
