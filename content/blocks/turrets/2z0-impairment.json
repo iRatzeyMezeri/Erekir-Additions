@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "name": "Impairment",
+  "name": "MICRO MALIGN",
   "description": "Shoots homing silicon projectiles at your enemies. Requires Power",
   "size": 3,
   "squareSprite": false,
