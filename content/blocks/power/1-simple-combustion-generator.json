@@ -1,6 +1,6 @@
 {
   "type": "ConsumeGenerator",
-  "name": "Simple Combustion Generator",
+  "name": "Crylite Reactor",
   "description": "Uses coal and water to generate power",
   "squareSprite": false,
   "drawer": {
