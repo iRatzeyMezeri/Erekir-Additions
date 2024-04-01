@@ -1,5 +1,5 @@
 {
-    "name": "Graphite Decompressor",
+    "name": "Multi-depress",
     "description": "Decompresses Graphite into Coal",
     "type": "GenericCrafter",
     "health": 240,
