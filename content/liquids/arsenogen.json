@@ -1,6 +1,6 @@
 {
     "type": "liquid",
-    "name": "Arsenogen",
+    "name": "Radon",
     "gas": true,
     "temperature": 0.5,
     "viscosity": 0.5,
