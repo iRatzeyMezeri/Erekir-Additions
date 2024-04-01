@@ -1,6 +1,6 @@
 {
   "type": "LiquidTurret",
-  "name": "Deteriorate",
+  "name": "Obviate but single",
   "description": "Shoots sparking nitrogen projectiles into your enemies.",
   "size": 3,
   "squareSprite": false,
