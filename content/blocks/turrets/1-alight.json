@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "name": "Alight",
+  "name": "Scorch",
   "description": "A fast-shooting rifle turret that uses coal as ammo. Sets enemies on fir",
   "size": 3,
   "squareSprite": false,
