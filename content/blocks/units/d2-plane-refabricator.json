@@ -1,5 +1,5 @@
 {
-  "name": "Plane Refabricator",
+  "name": "Heal Refabricator",
   "description": "Upgrades plane-type ''Hide'' units into heavier ''Dissapear'' units",
   "type": "Reconstructor",
   "regionSuffix": "-dark",
