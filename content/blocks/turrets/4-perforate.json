@@ -1,6 +1,6 @@
 {
   "type": "LiquidTurret",
-  "name": "Perforate",
+  "name": "10 Different movable parts",
   "description": "A heavy Anti-ground turret that  uses slag and power as ammo",
   "size": 4,
   "squareSprite": false,
