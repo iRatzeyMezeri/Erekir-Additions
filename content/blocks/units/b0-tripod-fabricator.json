@@ -1,5 +1,5 @@
 {
-  "name": "Hunter Fabricator",
+  "name": "Hug Fabricator",
   "description": "Constructs Hunter-type Letter units",
   "type": "UnitFactory",
   "regionSuffix": "-dark",
