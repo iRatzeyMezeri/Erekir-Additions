@@ -1,5 +1,5 @@
 {
-  "name": "Foot",
+  "name": "Mace (6 feet)",
   "description": "A medium walker-type unit armed with 2 shotguns",
   "template": "ErekirUnitType",
   "type": "mech",
