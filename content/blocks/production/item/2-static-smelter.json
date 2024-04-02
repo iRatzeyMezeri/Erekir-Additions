@@ -1,5 +1,5 @@
 {
-    "name": "Toxide Kiln",
+    "name": "Static Smelter",
     "description": "Combines Tungsten, Sand and Hydrogen into Static Compound. Produces Heat",
     "type": "HeatProducer",
     "health": 980,
