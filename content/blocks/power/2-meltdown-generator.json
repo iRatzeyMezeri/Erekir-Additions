@@ -33,7 +33,7 @@
   "consumes": {
     "liquids": [
       "hydrogen/0.1",
-      "slag/1",
+      "slag/0.33333",
     ]
   },
   "squareSprite": false,
