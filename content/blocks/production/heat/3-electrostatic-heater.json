@@ -1,7 +1,7 @@
 
 // description by @pieceofbread4029 from mindustry discord
 {
-  "name": "Desciption by @pieceofbread4029",
+  "name": "Electrostatic Heater",
   "description": "Runs extreme currents through surge alloy, generating extreme heat at the cost of destroying the alloy.",
   "type": "HeatProducer",
   "requirements": [
