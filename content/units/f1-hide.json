@@ -1,5 +1,5 @@
 {
-  "name": "Annoying sheesh with piercing lightnings",
+  "name": "Hide",
   "description": "A small Glider that fires electric arcs at enemies, cannot attack air units. Can only move above liquid surfaces.",
   "template": "ErekirUnitType",
   "naval": true,
