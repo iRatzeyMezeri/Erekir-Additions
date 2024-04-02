@@ -1,5 +1,5 @@
 {
-  "name": "Baby eater",
+  "name": "Mass",
   "description": "A small Hoverboard unit with 2 small laser weapons that can heal friendly structures",
   "template": "ErekirUnitType",
   "type": "hover",
