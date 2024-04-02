@@ -1,5 +1,5 @@
 {
-  "name": "Heal",
+  "name": "Magnet",
   "description": "A small flying support unit that cannot attack, but can heal nearby units",
   "template": "ErekirUnitType",
   "flying": true,
