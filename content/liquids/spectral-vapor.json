@@ -1,6 +1,6 @@
 {
     "type": "liquid",
-    "name": "Magic pony gas",
+    "name": "Spectral Vapor",
     "gas": true,
     "temperature": 0.8,
     "viscosity": 0.5,
