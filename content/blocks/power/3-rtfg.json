@@ -1,6 +1,6 @@
 {
   "type": "ConsumeGenerator",
-  "name": "EREKIR RTG OMAGAD",
+  "name": "Radioisotope Thermal Fusion Generator",
   "description": "Uses thorium and ozone to generate power",
   "drawer": {
     "type": "DrawMulti",
