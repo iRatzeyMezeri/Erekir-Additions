@@ -1,6 +1,6 @@
 {
   "type": "ConsumeGenerator",
-  "name": "Boring Slag powergen",
+  "name": "Meltdown Generator",
   "description": "Uses slag and hydrogen to generate power",
   "drawer": {
     "type": "DrawMulti",
