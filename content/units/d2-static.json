@@ -1,5 +1,5 @@
 {
-  "name": "EREKIR POLY OMFG",
+  "name": "Static",
   "description": "A larger flying support unit that cannot attack, but can help the player in building",
   "template": "ErekirUnitType",
   "flying": true,
