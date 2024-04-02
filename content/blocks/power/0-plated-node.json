@@ -1,6 +1,6 @@
 {
   "type": "BeamNode",
-  "name": "Wow carbide node how original",
+  "name": "Plated Node",
   "description": "A more resistant version of the beam node with a slightly larger range",
   "health": 420,
   "size": 1,
