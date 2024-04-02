@@ -1,5 +1,5 @@
 {
-  "name": "Tungsten Barrier",
+  "name": "Plating Projector",
   "description": "Uses Power and Silicon to generate a small force field, can be cooled with water",
   "type": "ForceProjector",
   "requirements": [
