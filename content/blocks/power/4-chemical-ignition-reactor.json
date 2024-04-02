@@ -1,6 +1,6 @@
 {
   "type": "ConsumeGenerator",
-  "name": "NO WAY LARGE CCC",
+  "name": "Chemical Ignition Reactor",
   "description": "A Better version of the Chemical Combustion Chamber. Uses Arkycite, Ozone and Coal",
   "drawer": {
     "type": "DrawMulti",
