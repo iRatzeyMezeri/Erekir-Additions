@@ -1,6 +1,6 @@
 {
   "type": "ConsumeGenerator",
-  "name": "BIG PYROLYISIZEER",
+  "name": "Instant Pyrolysis Furnace",
   "description": "A Better version of the Pyrolysis Generator. Uses Arkycite, Slag, and Arsenogen. Produces Water as a byproduct",
   "drawer": {
     "type": "DrawMulti",
