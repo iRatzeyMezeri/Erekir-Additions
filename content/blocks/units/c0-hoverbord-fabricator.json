@@ -1,5 +1,5 @@
 {
-  "name": "Not Elude Fabricator",
+  "name": "Hoverboard Fabricator",
   "description": "Constructs Hoverboard-type Mass units",
   "type": "UnitFactory",
   "regionSuffix": "-dark",
