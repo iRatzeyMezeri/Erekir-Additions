@@ -1,5 +1,5 @@
 {
-  "name": "Hydrogen Heater",
+  "name": "Cyanogen Heater",
   "description": "Uses cyanogen to produce large amounts heat",
   "type": "HeatProducer",
   "drawer": {
