@@ -1,5 +1,5 @@
 {
-  "name": "Heal Fabricator",
+  "name": "Plane Fabricator",
   "description": "Constructs Support Plane-type Magnet units",
   "type": "UnitFactory",
   "regionSuffix": "-dark",
