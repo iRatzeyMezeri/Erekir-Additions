@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "name": "MICRO MALIGN",
+  "name": "Impairment",
   "description": "Shoots homing silicon projectiles at your enemies. Requires Power",
   "size": 3,
   "squareSprite": false,
@@ -58,7 +58,7 @@
     "silicon": {
       "type": "basicBulletType",
         "sprite": "large-bomb-back",
-        "damage": 20,
+        "damage": 25,
         "pierce": false,
         "pierceBuilding": false,
         "speed": 5,
