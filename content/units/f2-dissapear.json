@@ -1,5 +1,5 @@
 {
-  "name": "Pile of mcdonalds fries",
+  "name": "Dissapear",
   "description": "A larger Glider armed with a laser rifle that shatters into several electric bolts on hit. Can only move above liquid surfaces.",
   "template": "ErekirUnitType",
   "naval": true,
