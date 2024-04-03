@@ -58,9 +58,9 @@
         "color1": "92dd7e",
         "color2": "d2f3ca",
         "radius": 0,
-        "radiusTo": 4,
+        "radiusTo": 8,
         "progress": "warmup",
-        "y": -24,
+        "y": -12,
       }
     ]
   },
@@ -85,11 +85,11 @@
   "health": 1980,
   "reload": 20,
   "range": 152,
-  "inaccuracy": 30,
+  "inaccuracy": 0,
   "recoil": 2,
   "recoils": 3,
   "rotateSpeed": 4,
-  "shootSound": "sap",
+  "shootSound": "shockBlast",
   "ammoTypes": {
     "beryllium": {
       "type": "ShrapnelBulletType",
@@ -97,12 +97,12 @@
         "pierce": true,
         "pierceBuilding": false,
         "serrations": 2,
-        "width": 12,
+        "width": 4,
         "length": 152,
         "lifetime": 40,
         "lightColor": "d2f3ca",
-        "backColor": "92dd7e",
-        "frontColor": "92dd7e",
+        "colorFrom": "92dd7e",
+        "colorTo": "92dd7e",
     },
     "oxide": {
       "type": "ShrapnelBulletType",
@@ -110,12 +110,12 @@
         "pierce": true,
         "pierceBuilding": false,
         "serrations": 4,
-        "width": 12,
+        "width": 4,
         "length": 192,
         "lifetime": 40,
         "lightColor": "ffffff",
-        "backColor": "d2f3ca",
-        "frontColor": "d2f3ca",
+        "colorFrom": "d2f3ca",
+        "colorTo": "d2f3ca",
     }
   },
   "requirements": [
