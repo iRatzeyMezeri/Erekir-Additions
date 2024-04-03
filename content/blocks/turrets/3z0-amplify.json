@@ -100,9 +100,8 @@
         "width": 4,
         "length": 152,
         "lifetime": 40,
-        "lightColor": "d2f3ca",
-        "colorFrom": "92dd7e",
-        "colorTo": "92dd7e",
+        "fromColor": "d2f3ca",
+        "toColor": "92dd7e",
     },
     "oxide": {
       "type": "ShrapnelBulletType",
@@ -113,9 +112,8 @@
         "width": 4,
         "length": 192,
         "lifetime": 40,
-        "lightColor": "ffffff",
-        "colorFrom": "d2f3ca",
-        "colorTo": "d2f3ca",
+        "fromColor": "ffffff",
+        "toColor": "d2f3ca",
     }
   },
   "requirements": [
