@@ -1,0 +1,132 @@
+{
+  "type": "ItemTurret",
+  "name": "Amplify",
+  "description": "Shoots piercing beryllium/oxide lasers at your enemies",
+  "size": 3,
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "reinforced-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-m",
+        "recoilIndex": 2,
+        "progress": "recoil",
+        "moveY": -2,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "main",
+        "recoilIndex": 2,
+        "progress": "warmup",
+        "moveY": 1,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-l",
+        "progress": "warmup",
+        "heatProgress": "recoil",
+        "heatColor": "fdb380",
+        "moveX": 1,
+        "moveY": -2,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side-r",
+        "progress": "warmup",
+        "heatProgress": "recoil",
+        "heatColor": "fdb380",
+        "moveX": -1,
+        "moveY": -2,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-l",
+        "recoilIndex": 1,
+        "progress": "recoil",
+        "moveY": -2,
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-r",
+        "recoilIndex": 3,
+        "progress": "recoil",
+        "moveY": -2,
+      },
+      {
+        "type": "FlarePart",
+        "color1": "92dd7e",
+        "color2": "d2f3ca",
+        "radius": 0,
+        "radiusTo": 4,
+        "progress": "warmup",
+        "y": -24,
+      }
+    ]
+  },
+  "consumes": {
+    "coolant": {
+      "liquid": "water",
+      "booster": 2,
+      "amount": 0.2,
+      "coolantMultiplier": 1.5,
+    },
+  },
+  "shoot": {
+    "type": "ShootBarrel",
+    "barrels": [
+      -8, -2, 0,
+      0, -1, 0,
+      8, -2, 0,
+    ]
+  },
+  "heatColor": "cac4f5",
+  "heatProgress": "warmup",
+  "health": 1980,
+  "reload": 20,
+  "range": 152,
+  "inaccuracy": 30,
+  "recoil": 2,
+  "recoils": 3,
+  "rotateSpeed": 4,
+  "shootSound": "sap",
+  "ammoTypes": {
+    "beryllium": {
+      "type": "ShrapnelBulletType",
+        "damage": 70,
+        "pierce": true,
+        "pierceBuilding": false,
+        "serrations": 2,
+        "width": 12,
+        "length": 152,
+        "lifetime": 40,
+        "lightColor": "d2f3ca",
+        "backColor": "92dd7e",
+        "frontColor": "92dd7e",
+    },
+    "oxide": {
+      "type": "ShrapnelBulletType",
+        "damage": 140,
+        "pierce": true,
+        "pierceBuilding": false,
+        "serrations": 4,
+        "width": 12,
+        "length": 192,
+        "lifetime": 40,
+        "lightColor": "ffffff",
+        "backColor": "d2f3ca",
+        "frontColor": "d2f3ca",
+    }
+  },
+  "requirements": [
+    "tungsten/125",
+    "silicon/250",
+    "beryllium/350",
+    "oxide/50"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "1z0-drought",
+  }
+}
