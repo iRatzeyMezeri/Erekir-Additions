@@ -11,14 +11,13 @@
       {
         "type": "RegionPart",
         "suffix": "-barrel-m",
-        "recoilIndex": 2,
+        "recoilIndex": 1,
         "progress": "recoil",
         "moveY": -2,
       },
       {
         "type": "RegionPart",
         "suffix": "main",
-        "recoilIndex": 2,
         "progress": "warmup",
         "moveY": 1,
       },
@@ -43,14 +42,14 @@
       {
         "type": "RegionPart",
         "suffix": "-barrel-l",
-        "recoilIndex": 1,
+        "recoilIndex": 0,
         "progress": "recoil",
         "moveY": -2,
       },
       {
         "type": "RegionPart",
         "suffix": "-barrel-r",
-        "recoilIndex": 3,
+        "recoilIndex": 2,
         "progress": "recoil",
         "moveY": -2,
       },
