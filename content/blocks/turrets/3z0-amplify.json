@@ -105,7 +105,7 @@
     },
     "oxide": {
       "type": "ShrapnelBulletType",
-        "damage": 85,
+        "damage": 95,
         "pierce": true,
         "pierceBuilding": false,
         "serrations": 4,
