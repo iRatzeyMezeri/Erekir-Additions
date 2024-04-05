@@ -48,7 +48,7 @@
         "sprite": "bullet",
         "ammoMultiplier": 1,
         "damage": 30,
-        "splashDamage": 90,
+        "splashDamage": 140,
         "splashDamageRadius": 48,
         "pierce": false,
         "pierceBuilding": false,
