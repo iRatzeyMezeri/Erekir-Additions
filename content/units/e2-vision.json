@@ -3,21 +3,11 @@
   "description": "An offense flying unit, Drops bombs at your enemies that lieve a field of gas for 20 seconds",
   "template": "ErekirUnitType",
   "flying": true,
-  "speed": 1.4,
+  "speed": 0.8,
+  "rotateSpeed": 1,
   "faceTarget": false,
   "hitSize": 18,
   "health": 960,
-  "parts": [
-    {
-      "type": "FlarePart",
-      "radius": 8,
-      "color2": "8c84e4",
-      "color1": "cac4f5",
-      "progress": "recoil",
-      "radiusTo": 24,
-      "layerOffset": -0.001
-    }
-  ],
   "weapons": [
     {
       "name": "e2-vision-weapon",
@@ -31,16 +21,19 @@
         "width": 3,
         "height": 3,
         "fragBullets": 12,
+        "fragVelocityMin": 0.5,
+        "fragVelocityMax": 1,
         "fragBullet": {
           "type": "basicBulletType",
           "sprite": "circle",
           "damage": 60,
           "colorFrom": "cac4f5aa",
           "colorFrom": "8c84e433",
+          "lightColor": "00000000",
           "pierce": true,
           "pierceBuilding": false,
-          "speed": 0.1,
-          "lifetime": 300,
+          "speed": 0.0025,
+          "lifetime": 1200,
           "shrinkY": 0,
           "shrinkX": 0,
           "width": 4,
