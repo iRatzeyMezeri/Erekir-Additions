@@ -6,7 +6,7 @@
   "squareSprite": false,
   "targetGround": false,
   "heatProgress": "warmup",
-  "heatColor": "ffffffaa",
+  "heatColor": "ff0000aa",
   "drawer": {
     "type": "DrawTurret",
     "basePrefix": "reinforced-",
