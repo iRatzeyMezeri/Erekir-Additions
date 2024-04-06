@@ -10,11 +10,21 @@
     "basePrefix": "reinforced-",
     "parts": [
       {
+        "type": "FlarePart",
+        "radius": 0,
+        "radiusTo": 12,
+        "rotation": 45,
+        "color1": "8ca9e8",
+        "color2": "d1efff",
+        "y": -12,
+        "progress": "warmup",
+      },
+      {
         "type": "RegionPart",
         "suffix": "-main",
         "progress": "warmup",
         "heatProgress": "warmup",
-        "heatColor": "d1efffaa",
+        "heatColor": "ffaaaaaa",
         "moveY": -3,
       },
       {
@@ -35,9 +45,8 @@
       }
     ]
   },
-  
   "health": 1580,
-  "shootY": 5
+  "shootY": -5
   "reload": 6,
   "range": 240,
   "inaccuracy": 8,
@@ -63,7 +72,43 @@
         "lifetime": 30,
         "lightColor": "d1efff",
         "colorFrom": "d1efff",
-        "colorTo": "8ca9e8"
+        "colorTo": "8ca9e8",
+        "shootEffect": {
+          "type": "ParticleEffect",
+          "region": "circle",
+          "colorTo": "d1efff88",
+          "lightColor": "8ca9e888",
+          "colorFrom": "8ca9e888",
+          "particles": 12,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "lifetime": 30,
+          "lengthOffset": 6,
+        },
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "region": "circle",
+          "colorTo": "d1efff88",
+          "lightColor": "8ca9e888",
+          "colorFrom": "8ca9e888",
+          "particles": 12,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "lifetime": 30,
+          "lengthOffset": 6,
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "region": "circle",
+          "colorTo": "d1efff88",
+          "lightColor": "8ca9e888",
+          "colorFrom": "8ca9e888",
+          "particles": 12,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "lifetime": 30,
+          "lengthOffset": 6,
+        },
       }
     },
   "requirements": [
