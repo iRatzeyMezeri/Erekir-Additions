@@ -5,6 +5,8 @@
   "size": 3,
   "squareSprite": false,
   "targetGround": false,
+  "heatProgress": "warmup",
+  "heatColor": "ffffffaa",
   "drawer": {
     "type": "DrawTurret",
     "basePrefix": "reinforced-",
@@ -16,16 +18,8 @@
         "rotation": 45,
         "color1": "8ca9e8",
         "color2": "d1efff",
-        "y": -12,
         "progress": "warmup",
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-main",
-        "progress": "warmup",
-        "heatProgress": "warmup",
-        "heatColor": "ffaaaaaa",
-        "moveY": -3,
+        "layerOffset": -0.001
       },
       {
         "type": "RegionPart",
@@ -46,7 +40,6 @@
     ]
   },
   "health": 1580,
-  "shootY": -5
   "reload": 6,
   "range": 240,
   "inaccuracy": 8,
