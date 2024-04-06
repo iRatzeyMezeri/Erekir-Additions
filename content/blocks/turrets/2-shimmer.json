@@ -43,6 +43,7 @@
         "sprite": "bullet",
         "damage": 40,
         "pierce": true,
+        "shootY": -2,
         "pierceBuilding": false,
         "speed": 8,
         "shrinkY": 0,
