@@ -18,8 +18,8 @@
       "reload": 40,
       "mirror": true,
       "alternate": false,
-      "x": 8,
-      "y": -2,
+      "x": 7,
+      "y": 3,
       "shootSound": "blaster",
       "bullet": {
         "type": "basicBulletType",
@@ -91,10 +91,10 @@
     {
       "name": "e3-glance-cannon",
       "top": true,
-      "reload": 40,
+      "reload": 120,
       "mirror": false,
-      "x": 9,
-      "y": -10,
+      "x": 8,
+      "y": 0,
       "shoot": {
         "shots": 3,
         "shotDelay": 15
@@ -153,8 +153,8 @@
         "shrinkX": 0,
         "weaveMag": 3,
         "weaveScl": 3,
-        "width": 8,
-        "height": 8,
+        "width": 10,
+        "height": 14,
         "lifetime": 280,
         "lightColor": "cac4f5",
         "colorFrom": "cac4f5",
