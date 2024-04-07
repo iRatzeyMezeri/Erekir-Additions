@@ -80,7 +80,7 @@
         "fragBullet": {
           "type": "LightningBulletType",
           "collidesAir": true,
-          "damage": 20,
+          "damage": 5,
           "lightningColor": "cac4f5",
           "lightningLength": 4,
           "lightningLengthRand": 7,
@@ -105,7 +105,7 @@
         "type": "basicBulletType",
         "sprite": "bullet",
         "damage": 30,
-        "splashDamage": 80,
+        "splashDamage": 30,
         "splashDamageRadius": 24,
         "pierceBuilding": false,
         "pierce": false,
