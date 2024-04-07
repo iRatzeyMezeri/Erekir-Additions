@@ -41,7 +41,7 @@
       "bullet": {
         "type": "basicBulletType",
         "sprite": "bullet",
-        "damage": 50,
+        "damage": 30,
         "pierceBuilding": false,
         "pierce": false,
         "trailColor": "8c84e4",
