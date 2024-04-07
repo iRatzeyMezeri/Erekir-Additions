@@ -31,6 +31,8 @@
       "top": true,
       "reload": 120,
       "mirror": false,
+      "x": 0,
+      "y": -2,
       "shoot": {
         "shots": 5,
         "shotDelay": 10
