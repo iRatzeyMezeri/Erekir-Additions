@@ -19,7 +19,7 @@
       "mirror": true,
       "alternate": false,
       "x": 7,
-      "y": 3,
+      "y": 7,
       "shootSound": "blaster",
       "bullet": {
         "type": "basicBulletType",
@@ -92,7 +92,8 @@
       "name": "e3-glance-cannon",
       "top": true,
       "reload": 120,
-      "mirror": false,
+      "mirror": true,
+      "alternate": true,
       "x": 8,
       "y": 0,
       "shoot": {
