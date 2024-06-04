@@ -10,3 +10,10 @@ Sector progression:
 - hallway
 - presence
 - passing (post-lake)
+
+= Pre-oxde =
+- flatlands
+- hold
+
+===
+Will be ported to java when i learn it (port release atleast in mid august maybe september)
