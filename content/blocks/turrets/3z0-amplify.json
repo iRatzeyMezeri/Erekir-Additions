@@ -93,7 +93,7 @@
   "ammoTypes": {
     "beryllium": {
       "type": "ShrapnelBulletType",
-        "damage": 40,
+        "damage": 15,
         "pierce": true,
         "pierceBuilding": false,
         "serrations": 2,
@@ -105,7 +105,7 @@
     },
     "oxide": {
       "type": "ShrapnelBulletType",
-        "damage": 95,
+        "damage": 35,
         "pierce": true,
         "pierceBuilding": false,
         "serrations": 4,
