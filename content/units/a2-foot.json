@@ -7,7 +7,7 @@
   "speed": 0.5,
   "hitSize": 10,
   "researchCostMultiplier": 0,
-  "health": 1840,
+  "health": 1640,
   "research": "a2-walker-refabricator",
   "requiresUnlock": false,
   "weapons": [
@@ -23,7 +23,7 @@
       "bullet": {
         "type": "basicBulletType",
         "sprite": "circle",
-        "damage": 40,
+        "damage": 20,
         "pierceBuilding": true,
         "pierce": false,
         "trailColor": "f7c749",
@@ -48,7 +48,7 @@
         "fragBullet": {
           "type": "basicBulletType",
           "sprite": "circle",
-          "damage": 10,
+          "damage": 5,
           "pierce": false,
           "lightColor": "f1ffa9",
           "colorFrom": "f1ffa9",
