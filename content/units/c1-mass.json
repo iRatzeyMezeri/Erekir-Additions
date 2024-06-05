@@ -52,7 +52,8 @@
       "bullet": {
         "type": "shrapnelBulletType",
         "lifetime": 20,
-        "damage": 10,
+        "damage": 20,
+        "pierceCap": 3,
         "serrations": 1,
         "fromColor": "91aaed",
         "toColor": "5e7ccb",
